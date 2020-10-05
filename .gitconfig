@@ -1,0 +1,20 @@
+[credential]
+[user]
+	name = Gaurav Gahlot
+	email = gauravgahlot0107@gmail.com
+	signingkey = 1A9A68577495C60C
+[http]
+	cookiefile = /home/quickdev/.gitcookies
+[commit]
+	gpgSign = true
+[credential]
+	helper = store
+[gpg]
+	program = gpg
+[core]
+	editor = vim
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
