@@ -1,0 +1,266 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/quickdev/go/src/github.com/gauravgahlot/tink
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/db.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go
+> git cat-file -s 313a32d52ade521a649c17075c8e953009769aa6
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git check-ignore -v -z --stdin
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/db.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go
+> git cat-file -s 313a32d52ade521a649c17075c8e953009769aa6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/db.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go
+> git cat-file -s 313a32d52ade521a649c17075c8e953009769aa6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/db.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go
+> git cat-file -s 313a32d52ade521a649c17075c8e953009769aa6
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :grpc-server/template_test.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go
+> git cat-file -s 36fe170ddc4ffb8742b2793899b98413a4b80186
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git check-ignore -v -z --stdin
+> git show :grpc-server/template_test.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go
+> git cat-file -s 36fe170ddc4ffb8742b2793899b98413a4b80186
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :db/mock/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go
+> git cat-file -s b49a875ce63e159ae031e1b883440b72b2e701c9
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :db/mock/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go
+> git cat-file -s b49a875ce63e159ae031e1b883440b72b2e701c9
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239
+> git show :db/mock/event.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239
+> git show :db/mock/template.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go
+> git cat-file -s 6e083c718085427d12ce202e49fac295dfb46de7
+> git show :db/mock/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go
+> git cat-file -s b49a875ce63e159ae031e1b883440b72b2e701c9
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :db/mock/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go
+> git cat-file -s b49a875ce63e159ae031e1b883440b72b2e701c9
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/mock/event.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/db.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go
+> git cat-file -s 313a32d52ade521a649c17075c8e953009769aa6
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :db/mock/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go
+> git cat-file -s b49a875ce63e159ae031e1b883440b72b2e701c9
+> git show :db/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/workflow.go
+> git cat-file -s a0f1fbf9eeb180049a50df848a7ce1522e1596f8
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/workflow.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/workflow.go
+> git cat-file -s a0f1fbf9eeb180049a50df848a7ce1522e1596f8
+> git show :db/mock/event.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/mock/event.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239

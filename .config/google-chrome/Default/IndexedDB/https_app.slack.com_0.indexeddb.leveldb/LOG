@@ -1,0 +1,15 @@
+2020/09/24-11:24:40.661 5de5 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/24-11:24:40.661 5de5 Recovering log #18
+2020/09/24-11:24:40.661 5de5 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000018.log 
+2020/09/24-11:27:54.645 1a10 Level-0 table #23: started
+2020/09/24-11:27:55.415 1a10 Level-0 table #23: 1419 bytes OK
+2020/09/24-11:27:55.815 1a10 Delete type=0 #18
+2020/09/24-11:27:55.815 1a10 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/24-11:27:55.816 1a10 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01*\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00s\x00l\x00a\x00c\x00k\x00-\x00c\x00l\x00i\x00e\x00n\x00t\x00-\x00T\x00G\x007\x00T\x00T\x00B\x00L\x00J\x000\x00-\x00U\x000\x001\x00B\x007\x004\x00V\x007\x007\x00L\x00M' @ 253 : 1
+2020/09/24-11:27:55.816 1a10 Compacting 1@1 + 1@2 files
+2020/09/24-11:27:56.132 1a10 Generated table #24@1: 33 keys, 540300 bytes
+2020/09/24-11:27:56.132 1a10 Compacted 1@1 + 1@2 files => 540300 bytes
+2020/09/24-11:27:56.171 1a10 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/24-11:27:56.172 1a10 Delete type=2 #23
+2020/09/24-11:27:56.172 1a10 Delete type=2 #20
+2020/09/24-11:27:56.198 1a10 Manual compaction at level-1 from '\x00\x01\x01\x03\x01*\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00s\x00l\x00a\x00c\x00k\x00-\x00c\x00l\x00i\x00e\x00n\x00t\x00-\x00T\x00G\x007\x00T\x00T\x00B\x00L\x00J\x000\x00-\x00U\x000\x001\x00B\x007\x004\x00V\x007\x007\x00L\x00M' @ 253 : 1 .. (end); will stop at (end)

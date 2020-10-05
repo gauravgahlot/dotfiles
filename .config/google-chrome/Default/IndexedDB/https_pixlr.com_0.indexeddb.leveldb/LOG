@@ -1,0 +1,15 @@
+2020/09/30-11:37:27.137 6d9c Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-11:37:27.137 6d9c Recovering log #34
+2020/09/30-11:37:27.138 6d9c Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_pixlr.com_0.indexeddb.leveldb/000034.log 
+2020/09/30-11:40:46.140 1488 Level-0 table #39: started
+2020/09/30-11:40:46.203 1488 Level-0 table #39: 78776 bytes OK
+2020/09/30-11:40:46.243 1488 Delete type=0 #34
+2020/09/30-11:40:46.243 1488 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/30-11:40:46.244 1488 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x08\x03\x01$\x001\x008\x003\x00a\x004\x00c\x00d\x00f\x00-\x007\x00e\x004\x006\x00-\x004\x008\x00c\x000\x00-\x00a\x007\x004\x008\x00-\x003\x002\x00f\x005\x00b\x00d\x004\x00f\x001\x002\x00b\x000' @ 10459 : 0
+2020/09/30-11:40:46.244 1488 Compacting 1@1 + 1@2 files
+2020/09/30-11:40:46.278 1488 Generated table #40@1: 141 keys, 6156 bytes
+2020/09/30-11:40:46.278 1488 Compacted 1@1 + 1@2 files => 6156 bytes
+2020/09/30-11:40:46.317 1488 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/30-11:40:46.317 1488 Delete type=2 #39
+2020/09/30-11:40:46.317 1488 Delete type=2 #36
+2020/09/30-11:40:46.318 1488 Manual compaction at level-1 from '\x00\x01\x08\x03\x01$\x001\x008\x003\x00a\x004\x00c\x00d\x00f\x00-\x007\x00e\x004\x006\x00-\x004\x008\x00c\x000\x00-\x00a\x007\x004\x008\x00-\x003\x002\x00f\x005\x00b\x00d\x004\x00f\x001\x002\x00b\x000' @ 10459 : 0 .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2020/04/28-18:25:21.796 6411 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.pvpro.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/28-18:25:21.796 6411 Recovering log #4
+2020/04/28-18:25:21.796 6411 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.pvpro.com_0.indexeddb.leveldb/000004.log 
+2020/04/28-18:36:21.958 177c Level-0 table #8: started
+2020/04/28-18:36:22.351 177c Level-0 table #8: 5668 bytes OK
+2020/04/28-18:36:22.390 177c Delete type=0 #4
+2020/04/28-18:36:22.391 177c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/04/28-18:36:22.391 177c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 428 : 1
+2020/04/28-18:36:22.391 177c Compacting 1@1 + 1@2 files
+2020/04/28-18:36:22.424 177c Generated table #9@1: 89 keys, 2097 bytes
+2020/04/28-18:36:22.424 177c Compacted 1@1 + 1@2 files => 2097 bytes
+2020/04/28-18:36:22.464 177c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/28-18:36:22.464 177c Delete type=2 #5
+2020/04/28-18:36:22.464 177c Delete type=2 #8
+2020/04/28-18:36:22.464 177c Manual compaction at level-1 from '\x00\x01\x03\x02\x01\x1f\x00w\x00e\x00b\x00h\x00o\x00o\x00k\x00s\x00.\x00n\x00o\x00t\x00i\x00f\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00.\x00d\x00i\x00s\x00p\x00l\x00a\x00y\x00e\x00d' @ 428 : 1 .. (end); will stop at (end)

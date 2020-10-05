@@ -1,0 +1,1457 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/quickdev/go/src/github.com/gauravgahlot/tink
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/mock/hardware.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go
+> git cat-file -s f0105450230ec294ffbc3c839bb61230eddef239
+> git check-ignore -v -z --stdin
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :grpc-server/template_test.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go
+> git cat-file -s 36fe170ddc4ffb8742b2793899b98413a4b80186
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :db/template.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/template.go
+> git cat-file -s 9e2f07acfc3a6ff6b28fa6e345b61832b4458d68
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :grpc-server/template_test.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go
+> git cat-file -s 36fe170ddc4ffb8742b2793899b98413a4b80186
+> git show :db/mock/mock.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+> git cat-file -s 789efe88a64d60baef125fd066c48b9335e840fd
+> git show :db/mock/event.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s d2b547850dd91dce6e1dc7aa53f58e21ea0e2a4e
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git check-ignore -v -z --stdin
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 84b5f328a10e5615b44e5f7e04141127747e6585
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 84b5f328a10e5615b44e5f7e04141127747e6585
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :db/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git status -z -u
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git symbolic-ref --short HEAD
+> git cat-file -s 5ca6aaa547a8f9c3818c27c1f066a97a0ae99bb2
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git show :informers/notification.go
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show HEAD:go.sum
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.sum
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git checkout -q -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git checkout -q -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.sum
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show HEAD:go.mod
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git show HEAD:go.mod
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git symbolic-ref --short HEAD
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s aab3c7ddd2ccb9596cfdda864dcadefb2bfa2308
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git check-ignore -v -z --stdin
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git cat-file -s 5ca6aaa547a8f9c3818c27c1f066a97a0ae99bb2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :protos/events/events.proto
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.proto
+> git cat-file -s 5920ce7dbce8f0c7d3ac90e68cafcbe8e3a85b40
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.proto
+> git symbolic-ref --short HEAD
+> git cat-file -s 5920ce7dbce8f0c7d3ac90e68cafcbe8e3a85b40
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git show :protos/events/events.proto
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.proto
+> git symbolic-ref --short HEAD
+> git cat-file -s 5920ce7dbce8f0c7d3ac90e68cafcbe8e3a85b40
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git show :protos/events/events.proto
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git cat-file -s 5ca6aaa547a8f9c3818c27c1f066a97a0ae99bb2
+> git show :protos/events/events.pb.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git cat-file -s 137b3d5789bc628ea5a1fb48f7797090a3902858
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :protos/events/events.pb.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git cat-file -s 137b3d5789bc628ea5a1fb48f7797090a3902858
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git cat-file -s 5ca6aaa547a8f9c3818c27c1f066a97a0ae99bb2
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git show :informers/notification.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/notification.go
+> git cat-file -s 5ca6aaa547a8f9c3818c27c1f066a97a0ae99bb2
+> git check-ignore -v -z --stdin
+> git show HEAD:protos/events/events.pb.go
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git checkout -q -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.proto /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/hardware/hardware.pb.go /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/packet/packet.pb.go /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/template/template.pb.go /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/workflow/workflow.pb.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.pb.go
+> git show HEAD:protos/events/events.pb.go
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git checkout -q -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod /home/quickdev/go/src/github.com/gauravgahlot/tink/go.sum
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show HEAD:go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git show HEAD:go.mod
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git show HEAD:go.mod
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod
+> git check-ignore -v -z --stdin
+> git show :client/main.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/client/main.go
+> git cat-file -s d87170604d368f2b46a9a6881acb63758cbdd66a
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s aab3c7ddd2ccb9596cfdda864dcadefb2bfa2308
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s aab3c7ddd2ccb9596cfdda864dcadefb2bfa2308
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/handler.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/handler.go
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :informers/handler.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :informers/handler.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :grpc-server/events.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go
+> git cat-file -s aab3c7ddd2ccb9596cfdda864dcadefb2bfa2308
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :cmd/tink-cli/cmd/event/watch.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event/watch.go
+> git cat-file -s 650213ee16024c6de4a47fc80cb737294e230974
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :protos/events/events.proto
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/protos/events/events.proto
+> git cat-file -s 5920ce7dbce8f0c7d3ac90e68cafcbe8e3a85b40
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/factory.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/factory.go
+> git cat-file -s e380667e7f39faa7bc1deb2e767831cd41f03ab4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/handler.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/handler.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/handler.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show HEAD:informers/informer.go
+> git ls-tree -l HEAD -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git show :informers/informer.go
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/informers/informer.go
+> git cat-file -s 3af109e6acb81de3919ce945e5385317588ce639

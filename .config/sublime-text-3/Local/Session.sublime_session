@@ -1,0 +1,546 @@
+{
+	"folder_history":
+	[
+		"/home/quickdev/qemu/tinkerbell"
+	],
+	"last_version": 3211,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"FOr",
+						"ForProvider"
+					],
+					[
+						"pack",
+						"packetadmin"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/quickdev/Documents/packet/auto.ipxe",
+				"/home/quickdev/go/src/github.com/gauravgahlot/tink/setup.sh",
+				"/home/quickdev/Documents/packet/osie-boot-logs",
+				"/home/quickdev/Documents/narrowed-hw.json",
+				"/home/quickdev/Documents/original-hw.json",
+				"/home/quickdev/go/src/github.com/gauravgahlot/provider-aws/apis/database/v1beta1/dbsubnetgroup_types.go",
+				"/home/quickdev/go/src/github.com/gauravgahlot/provider-aws/pkg/controller/database/dbsubnetgroup/controller.go",
+				"/home/quickdev/misc/tink/worker.go",
+				"/home/quickdev/go/src/github.com/packethost/cacher/docker-compose.yml",
+				"/home/quickdev/setup.sh",
+				"/home/quickdev/go/src/github.com/packethost/rover/docker-compose.yml",
+				"/home/quickdev/workflow-helper.sh",
+				"/home/quickdev/Downloads/gen-certs.sh",
+				"/home/quickdev/docker-compose.yml",
+				"/home/quickdev/Documents/packet/wpush.out",
+				"/home/quickdev/go/src/github.com/rover/cmd/rover/sample.tmpl",
+				"/home/quickdev/Downloads/push.out",
+				"/home/quickdev/Downloads/push_sample.sh",
+				"/home/quickdev/Documents/packet/push.out",
+				"/home/quickdev/go/pkg/mod/google.golang.org/grpc@v1.24.0/examples/helloworld/greeter_client/main.go",
+				"/home/quickdev/Documents/packet/wf-logs-01",
+				"/home/quickdev/Documents/packet/wf-logs",
+				"/home/quickdev/Documents/new/packet/push-data.json",
+				"/home/quickdev/Documents/new/packet/osie-boot-logs",
+				"/home/quickdev/Documents/packet/sample-machine.json"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"FOr",
+						"ForProvider"
+					],
+					[
+						"pack",
+						"packetadmin"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "P@ck3tR0cks!\n11f9e4ffa78b5ec0f3c5eeeb2f2b4769b2188955\n\nfind . | cpio -o -H newc | gzip -9 > ~/GG/new.img\nCGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .\n\n\nexport TB_INTERFACE=enp1s0f1\nexport TB_NETWORK=192.168.1.0/29\nexport TB_IPADDR=192.168.1.1\nexport TB_REGUSER=admin\nexport TB_OSIE_TAR='/root/osie/latest.tar.gz'\nalias dc=\"docker-compose\" >> ~/.bashrc\nsource ~/.bashrc\ncurl https://raw.githubusercontent.com/tinkerbell/tink/master/setup.sh | bash\n \ndocker pull hello-world\ndocker tag hello-world 192.168.1.1/hello-world\ndocker push 192.168.1.1/hello-world\n\nshasum ~/deploy/certs/ca.pem\nshasum /etc/tinkerbell/nginx/workflow/ca.pem\nshasum /etc/docker/certs.d/192.168.1.1/ca.crt\n\n\ntink template create -p /tmp/sample.tmpl -n hello\ntink target create '{\"targets\": {\"machine1\": {\"mac_addr\": \"ec:0d:9a:bf:ff:dc\"}}}' \ntink workflow create -t \n\n\ndocker run -dit --net host -v $(pwd)/fluentd:/fluentd/etc -e FLUENTD_CONF=fluentd.conf fluentd       \n        \ndocker run -dit --net host \\\n       -v /root/etc:/fluent-bit/etc \\\n       192.168.1.1/fluent-bit:1.3 \\\n       /fluent-bit/bin/fluent-bit -i forward -o es://192.168.1.1:9200/worker/worker --parser=/fluent-bit/etc/parsers.conf\n\n\ndocker run -it --privileged=true \\\n\t-e \"DOCKER_API_VERSION=v1.35\" \\\n    -e \"WORKER_ID=0eba0bf8-3772-4b4a-ab9f-6ebe93b90a94\" \\\n    -e \"DOCKER_REGISTRY=192.168.1.1\" \\\n    -e \"TINKERBELL_GRPC_AUTHORITY=192.168.1.1:42113\" \\\n    -e \"TINKERBELL_CERT_URL=http://192.168.1.1:42114/cert\" \\\n    -e \"REGISTRY_USERNAME=admin\" \\\n    -e \"REGISTRY_PASSWORD=9400820790140ffe60bbbceeb7f036eb2fbc7e35b2d0572c6ad518b416dfc2e5\" \\\n    -e \"ROLLBAR_TOKEN=ignored\" \\\n    -e \"ROLLBAR_DISABLE=-1\" \\\n    -v /var/run/docker.sock:/var/run/docker.sock \\\n    -v /worker:/worker \\\n    -v /dev:/dev \\\n\t-v /etc/docker/cert.d/192.168.1.1:/192.168.1.1 \\\n\t192.168.1.1/tink-worker\n\n\n\n\n{\n   \"id\":\"c0c46279-d409-4e46-a1b5-ace03563d24b\",\n   \"arch\":\"x86_64\",\n   \"allow_pxe\":true,\n   \"allow_workflow\":true,\n   \"ip_addresses\":[\n      {\n         \"address\":\"192.168.1.5\",\n         \"address_family\":4,W\n         \"enabled\":true,\n         \"gateway\":\"192.168.1.1\",\n         \"management\":true,\n         \"netmask\":\"255.255.255.248\",\n         \"public\":false\n      }\n   ],\n   \"network_ports\":[\n      {\n         \"data\":{\n            \"mac\":\"08:00:27:8d:c0:4d\"\n         },\n         \"name\":\"eth0\",\n         \"type\":\"data\"\n      }\n   ]\n} \n\nsudo sed -i -re 's/([a-z]{2}\\.)?archive.ubuntu.com|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list\t\n\nhttps://twitter.com/FOXTV/status/1242171691121274880 \n\nLet's give them a week. Start on Mon and submit by Sunday midnight. This gives them time to think during weekdays and finally put things to action over the weekend.\n\nThat way people won't spend their entire weekend sitting at laptops.\n\n\nFabricReadyToBoot: Disable extended configuration access\n\n525400158225\n080027e35dfe\n08:00:27:e3:5d:fe",
+					"settings":
+					{
+						"buffer_size": 2893,
+						"line_ending": "Unix",
+						"name": "P@ck3tR0cks!"
+					}
+				},
+				{
+					"contents": "version: \"0.1\"\nname: workflow\nglobal_timeout: 600\ntasks:\n  - name: \"action_one\"\n    worker: \"{{.device_1}}\"\n    actions:\n      - name: \"action_one\"\n        image: action-one\n        timeout: 300\n  - name: \"action_two\"\n    worker: \"{{.device_1}}\"\n    actions:\n      - name: \"action_two\"\n        image: action-two\n        timeout: 300\n\n\n\nFuture aspects:\n- Health check for worker nodes\n- ",
+					"settings":
+					{
+						"buffer_size": 386,
+						"line_ending": "Unix",
+						"name": "version: \"0.1\""
+					}
+				},
+				{
+					"contents": "\n- multiple choice questionaire for screening\n- document a typical week in the life of an infranaut\n- a trainer's handbook for an infranaut\n- infranaut's handbook (example GitLab handbook)\n- \n\n\nk8s simulator (k8sim)\n\n",
+					"settings":
+					{
+						"buffer_size": 217,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/quickdev/Downloads/Updated offer letter Re_ Offer to Join InfraCloud Technologies.eml",
+				"/home/quickdev/Documents/packet/vagrant-e2e",
+				"/home/quickdev/Documents/qemu-setup",
+				"/home/quickdev/Documents/packet/auto.ipxe",
+				"/home/quickdev/go/src/github.com/gauravgahlot/tink/setup.sh",
+				"/home/quickdev/Documents/packet/osie-boot-logs",
+				"/home/quickdev/Documents/narrowed-hw.json",
+				"/home/quickdev/Documents/original-hw.json",
+				"/home/quickdev/go/src/github.com/gauravgahlot/provider-aws/apis/database/v1beta1/dbsubnetgroup_types.go",
+				"/home/quickdev/go/src/github.com/gauravgahlot/provider-aws/pkg/controller/database/dbsubnetgroup/controller.go",
+				"/home/quickdev/misc/tink/worker.go",
+				"/home/quickdev/go/src/github.com/packethost/cacher/docker-compose.yml",
+				"/home/quickdev/setup.sh",
+				"/home/quickdev/go/src/github.com/packethost/rover/docker-compose.yml",
+				"/home/quickdev/workflow-helper.sh",
+				"/home/quickdev/Downloads/gen-certs.sh",
+				"/home/quickdev/docker-compose.yml",
+				"/home/quickdev/Documents/packet/wpush.out",
+				"/home/quickdev/go/src/github.com/rover/cmd/rover/sample.tmpl",
+				"/home/quickdev/Downloads/push.out",
+				"/home/quickdev/Downloads/push_sample.sh",
+				"/home/quickdev/Documents/packet/push.out",
+				"/home/quickdev/go/pkg/mod/google.golang.org/grpc@v1.24.0/examples/helloworld/greeter_client/main.go",
+				"/home/quickdev/Documents/packet/wf-logs-01",
+				"/home/quickdev/Documents/packet/wf-logs",
+				"/home/quickdev/Documents/new/packet/push-data.json",
+				"/home/quickdev/Documents/new/packet/osie-boot-logs",
+				"/home/quickdev/Documents/packet/sample-machine.json"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"operating",
+					"os\"",
+					"plan",
+					"class",
+					"efi",
+					"_work",
+					"providerSA",
+					"root",
+					"hash",
+					"98:03:9b:89:d7:ba",
+					"mac",
+					"ba",
+					"mac",
+					"98:03:9b:89:d7:ba",
+					"ba",
+					"\"type\": \"ipmi\",",
+					"ec:0d:9a:bf:ff:d8",
+					"rover_",
+					"save",
+					"$packet_base_url",
+					"pxe",
+					"1.0",
+					"/29",
+					"192.168",
+					"{}}'",
+					"uefi",
+					"cacher",
+					"sec",
+					"ROVER_GRPC_AUTHORITY",
+					"80",
+					"url",
+					"base-url",
+					"Kernel cm",
+					"cmdline",
+					"base_ur",
+					"packet_base_url",
+					"base_u",
+					"kernel cmd",
+					"ERR",
+					"sum",
+					"checksum",
+					"false",
+					"false ",
+					"false | true",
+					"osie",
+					"stat",
+					"install",
+					"action"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"",
+					"tag"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2893,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										201,
+										201
+									]
+								],
+								"settings":
+								{
+									"auto_name": "P@ck3tR0cks!",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1765.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 386,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										335,
+										335
+									]
+								],
+								"settings":
+								{
+									"auto_name": "version: \"0.1\"",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 217,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5,
+										5
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,18,1362,747,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

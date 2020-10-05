@@ -1,0 +1,15 @@
+2020/08/22-15:55:06.229 3fbf Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_stan.xing.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/22-15:55:06.229 3fbf Recovering log #4
+2020/08/22-15:55:06.229 3fbf Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_stan.xing.com_0.indexeddb.leveldb/000004.log 
+2020/08/22-15:55:12.478 13cc Level-0 table #8: started
+2020/08/22-15:55:12.503 13cc Level-0 table #8: 607 bytes OK
+2020/08/22-15:55:12.543 13cc Delete type=0 #4
+2020/08/22-15:55:12.543 13cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/22-15:55:12.543 13cc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 229 : 1
+2020/08/22-15:55:12.543 13cc Compacting 1@1 + 1@2 files
+2020/08/22-15:55:12.570 13cc Generated table #9@1: 68 keys, 1393 bytes
+2020/08/22-15:55:12.570 13cc Compacted 1@1 + 1@2 files => 1393 bytes
+2020/08/22-15:55:12.609 13cc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/22-15:55:12.609 13cc Delete type=2 #5
+2020/08/22-15:55:12.609 13cc Delete type=2 #8
+2020/08/22-15:55:12.609 13cc Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 229 : 1 .. (end); will stop at (end)

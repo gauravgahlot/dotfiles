@@ -1,0 +1,300 @@
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event
+/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/event>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/informers
+/home/quickdev/go/src/github.com/gauravgahlot/tink/informers>Finished running tool: /home/quickdev/go/bin/golint
+

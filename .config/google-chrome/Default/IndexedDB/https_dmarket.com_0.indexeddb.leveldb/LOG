@@ -1,0 +1,5 @@
+2020/04/13-18:01:21.584 5c15 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_dmarket.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/13-18:23:00.498 5d08 Level-0 table #5: started
+2020/04/13-18:23:00.821 5d08 Level-0 table #5: 7074 bytes OK
+2020/04/13-18:23:01.351 5d08 Delete type=0 #3
+2020/04/13-18:23:01.351 5d08 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

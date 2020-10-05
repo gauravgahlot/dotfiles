@@ -1,0 +1,15 @@
+2020/09/30-10:44:31.674 64b3 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_my.shaadi.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-10:44:31.674 64b3 Recovering log #222
+2020/09/30-10:44:31.674 64b3 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_my.shaadi.com_0.indexeddb.leveldb/000222.log 
+2020/09/30-10:45:22.425 1488 Level-0 table #227: started
+2020/09/30-10:45:22.506 1488 Level-0 table #227: 152034 bytes OK
+2020/09/30-10:45:22.546 1488 Delete type=0 #222
+2020/09/30-10:45:22.547 1488 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/30-10:45:22.547 1488 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01 \x03\x00\xc0\x00\xfa\xd6MwB\x00\x01C\x00i\x00m\x00g\x00-\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x002\x00.\x000\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00m\x00y\x00.\x00s\x00h\x00a\x00a\x00d\x00i\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00-\x00i\x00c\x00o\x00n\x00-\x00s\x00p\x00r\x00i\x00t\x00e\x00-\x00v\x00e\x00r\x002\x00.\x00p\x00n\x00g' @ 408985 : 1
+2020/09/30-10:45:22.547 1488 Compacting 1@1 + 1@2 files
+2020/09/30-10:45:22.597 1488 Generated table #228@1: 2871 keys, 191570 bytes
+2020/09/30-10:45:22.597 1488 Compacted 1@1 + 1@2 files => 191570 bytes
+2020/09/30-10:45:22.644 1488 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/30-10:45:22.644 1488 Delete type=2 #224
+2020/09/30-10:45:22.644 1488 Delete type=2 #227
+2020/09/30-10:45:22.645 1488 Manual compaction at level-1 from '\x00\x02\x01 \x03\x00\xc0\x00\xfa\xd6MwB\x00\x01C\x00i\x00m\x00g\x00-\x00a\x00s\x00s\x00e\x00t\x00s\x00-\x002\x00.\x000\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00m\x00y\x00.\x00s\x00h\x00a\x00a\x00d\x00i\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00i\x00m\x00-\x00i\x00c\x00o\x00n\x00-\x00s\x00p\x00r\x00i\x00t\x00e\x00-\x00v\x00e\x00r\x002\x00.\x00p\x00n\x00g' @ 408985 : 1 .. (end); will stop at (end)

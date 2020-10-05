@@ -1,0 +1,17 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/quickdev/go/src/github.com/gauravgahlot/tink
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse event-driven-tink
+> git rev-parse --symbolic-full-name event-driven-tink@{u}
+> git rev-list --left-right event-driven-tink...refs/remotes/origin/event-driven-tink
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :deploy/db/tinkerbell-init.sql
+> git ls-files --stage -- /home/quickdev/go/src/github.com/gauravgahlot/tink/deploy/db/tinkerbell-init.sql
+> git cat-file -s f29da3d8937b2fb5d155753c35abb72832eb6575
+> git config --get commit.template
+> git check-ignore -v -z --stdin

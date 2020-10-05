@@ -1,0 +1,6 @@
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/grpc-go
+/home/quickdev/go/src/github.com/gauravgahlot/grpc-go>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/grpc-go/credentials/local
+/home/quickdev/go/src/github.com/gauravgahlot/grpc-go/credentials/local>Finished running tool: /home/quickdev/go/bin/golint
+

@@ -1,0 +1,25 @@
+2020/10/01-19:37:21.058 1b7e Reusing MANIFEST /home/quickdev/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/01-19:37:21.059 1b7e Recovering log #4935
+2020/10/01-19:37:21.060 1b7e Reusing old log /home/quickdev/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/004935.log 
+2020/10/01-19:37:24.953 1b8b Level-0 table #4939: started
+2020/10/01-19:37:25.108 1b8b Level-0 table #4939: 1972056 bytes OK
+2020/10/01-19:37:25.244 1b8b Delete type=0 #4935
+2020/10/01-19:43:22.157 1b8b Level-0 table #4941: started
+2020/10/01-19:43:22.697 1b8b Level-0 table #4941: 1138444 bytes OK
+2020/10/01-19:43:23.427 1b8b Delete type=0 #4938
+2020/10/01-19:43:23.430 1b8b Compacting 4@0 + 2@1 files
+2020/10/01-19:43:24.067 1b8b Generated table #4942@0: 8 keys, 2305795 bytes
+2020/10/01-19:43:24.070 1b8b Level-0 table #4944: started
+2020/10/01-19:43:24.726 1b8b Level-0 table #4944: 1340788 bytes OK
+2020/10/01-19:43:25.242 1b8b Delete type=0 #4940
+2020/10/01-19:43:25.468 1b8b Generated table #4945@0: 11 keys, 306947 bytes
+2020/10/01-19:43:25.469 1b8b Compacted 4@0 + 2@1 files => 2612742 bytes
+2020/10/01-19:43:25.761 1b8b compacted to: files[ 1 2 1 0 0 0 0 ]
+2020/10/01-19:43:25.761 1b8b Delete type=2 #4936
+2020/10/01-19:43:25.762 1b8b Delete type=2 #4941
+2020/10/01-19:43:25.762 1b8b Delete type=2 #4932
+2020/10/01-19:43:25.763 1b8b Delete type=2 #4931
+2020/10/01-19:43:25.764 1b8b Delete type=2 #4934
+2020/10/01-19:43:25.764 1b8b Delete type=2 #4939
+2020/10/01-22:58:17.427 1b8b Level-0 table #4947: started
+2020/10/01-22:58:17.581 1b8b Level-0 table #4947: 1036678 bytes OK

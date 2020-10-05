@@ -1,0 +1,6 @@
+2020/10/02-20:21:46.595 11a7 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/10/02-20:21:46.596 11a7 Recovering log #3336
+2020/10/02-20:21:47.071 11a7 Reusing old log /home/quickdev/.config/google-chrome/Default/Sync Data/LevelDB/003336.log 
+2020/10/02-20:34:30.977 1755 Level-0 table #3340: started
+2020/10/02-20:34:31.055 1755 Level-0 table #3340: 101288 bytes OK
+2020/10/02-20:34:31.117 1755 Delete type=0 #3336

@@ -1,0 +1,15 @@
+2020/06/13-23:05:31.706 1468 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_landbot.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/13-23:05:31.706 1468 Recovering log #11
+2020/06/13-23:05:31.706 1468 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_landbot.io_0.indexeddb.leveldb/000011.log 
+2020/06/13-23:05:43.568 3a05 Level-0 table #16: started
+2020/06/13-23:05:43.619 3a05 Level-0 table #16: 4713 bytes OK
+2020/06/13-23:05:43.679 3a05 Delete type=0 #11
+2020/06/13-23:05:43.679 3a05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/13-23:05:43.680 3a05 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01a\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00A\x00z\x00T\x00_\x005\x00G\x00G\x00s\x00N\x00I\x00S\x00w\x00U\x00v\x00p\x00q\x00p\x00I\x00M\x00G\x00h\x00p\x00q\x00F\x00m\x00h\x00s\x00M\x00M\x00j\x00u\x00x\x00g\x00:\x00l\x00a\x00n\x00d\x00b\x00o\x00t\x00-\x00H\x00-\x004\x003\x009\x007\x006\x007\x00-\x000\x009\x00N\x00L\x00C\x00Q\x006\x00X\x00S\x00V\x00B\x006\x008\x00C\x00K\x001\x00-\x00+\x00Y\x00V\x00T\x002' @ 178 : 1
+2020/06/13-23:05:43.680 3a05 Compacting 1@1 + 1@2 files
+2020/06/13-23:05:43.727 3a05 Generated table #17@1: 26 keys, 5876 bytes
+2020/06/13-23:05:43.727 3a05 Compacted 1@1 + 1@2 files => 5876 bytes
+2020/06/13-23:05:43.786 3a05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/13-23:05:43.787 3a05 Delete type=2 #16
+2020/06/13-23:05:43.787 3a05 Delete type=2 #13
+2020/06/13-23:05:43.787 3a05 Manual compaction at level-1 from '\x00\x01\x01\x02\x01a\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00A\x00z\x00T\x00_\x005\x00G\x00G\x00s\x00N\x00I\x00S\x00w\x00U\x00v\x00p\x00q\x00p\x00I\x00M\x00G\x00h\x00p\x00q\x00F\x00m\x00h\x00s\x00M\x00M\x00j\x00u\x00x\x00g\x00:\x00l\x00a\x00n\x00d\x00b\x00o\x00t\x00-\x00H\x00-\x004\x003\x009\x007\x006\x007\x00-\x000\x009\x00N\x00L\x00C\x00Q\x006\x00X\x00S\x00V\x00B\x006\x008\x00C\x00K\x001\x00-\x00+\x00Y\x00V\x00T\x002' @ 178 : 1 .. (end); will stop at (end)

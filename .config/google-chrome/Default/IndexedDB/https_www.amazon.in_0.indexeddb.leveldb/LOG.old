@@ -1,0 +1,15 @@
+2020/08/22-14:03:46.145 25d3 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/22-14:03:46.145 25d3 Recovering log #363
+2020/08/22-14:03:46.145 25d3 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.amazon.in_0.indexeddb.leveldb/000363.log 
+2020/08/22-14:03:58.804 13cc Level-0 table #368: started
+2020/08/22-14:03:58.838 13cc Level-0 table #368: 535 bytes OK
+2020/08/22-14:03:58.877 13cc Delete type=0 #363
+2020/08/22-14:03:58.877 13cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/22-14:03:58.877 13cc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00\x90\xd5DXAwB\x00\x01\x14\x00Q\x00N\x00X\x005\x005\x00P\x00G\x00Q\x004\x004\x002\x00X\x00E\x00Q\x00J\x00J\x00P\x00J\x00Z\x00Z' @ 5414 : 1
+2020/08/22-14:03:58.877 13cc Compacting 1@1 + 1@2 files
+2020/08/22-14:03:58.904 13cc Generated table #369@1: 53 keys, 1545 bytes
+2020/08/22-14:03:58.904 13cc Compacted 1@1 + 1@2 files => 1545 bytes
+2020/08/22-14:03:58.944 13cc compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/22-14:03:58.944 13cc Delete type=2 #368
+2020/08/22-14:03:58.944 13cc Delete type=2 #365
+2020/08/22-14:03:58.944 13cc Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00\x90\xd5DXAwB\x00\x01\x14\x00Q\x00N\x00X\x005\x005\x00P\x00G\x00Q\x004\x004\x002\x00X\x00E\x00Q\x00J\x00J\x00P\x00J\x00Z\x00Z' @ 5414 : 1 .. (end); will stop at (end)

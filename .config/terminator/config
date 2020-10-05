@@ -1,0 +1,42 @@
+[global_config]
+  title_font = Ubuntu Mono 14
+[keybindings]
+  split_horiz = <Primary>h
+  split_vert = <Primary>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 14
+    foreground_color = "#ecf3f6"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[New Profile]]
+    background_color = "#ffffff"
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 14
+    foreground_color = "#000000"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[quickdev]]
+    background_color = "#07161b"
+    cursor_color = "#aaaaaa"
+    font = Monospace 14
+    foreground_color = "#e4f1f3"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False

@@ -1,0 +1,185 @@
+Initializing document watcher...
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/coverage.out: {"insertSpaces":true,"tabSize":2}
+tink/grpc-server/coverage.out: {"insertSpaces":true,"tabSize":2}
+tink/informers/factory.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/template.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/template.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/template.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/hardware.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/template.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/listener.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: Using EditorConfig core...
+informers/informer.go: editor.action.trimTrailingWhitespace
+tink/informers/informer.go: Using EditorConfig core...
+informers/informer.go: editor.action.trimTrailingWhitespace
+tink/informers/informer.go: Using EditorConfig core...
+informers/informer.go: editor.action.trimTrailingWhitespace
+tink/informers/informer.go: Using EditorConfig core...
+informers/informer.go: editor.action.trimTrailingWhitespace
+tink/informers/listener.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/factory.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/listener.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/listener.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/db.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: {"insertSpaces":false,"tabSize":8}
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/db/events.go: Using EditorConfig core...
+db/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/grpc_server.go: {"insertSpaces":false,"tabSize":8}
+tink/db/db.go: {"insertSpaces":false,"tabSize":8}
+tink/db/db.go: Using EditorConfig core...
+db/db.go: editor.action.trimTrailingWhitespace
+tink/db/db.go: Using EditorConfig core...
+db/db.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/db/db.go: {"insertSpaces":false,"tabSize":8}
+tink/db/db.go: Using EditorConfig core...
+db/db.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/informers/listener.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/factory.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: Using EditorConfig core...
+grpc-server/events.go: editor.action.trimTrailingWhitespace
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/deploy/db/tinkerbell-init.sql: {"insertSpaces":true,"tabSize":2}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: Using EditorConfig core...
+informers/informer.go: editor.action.trimTrailingWhitespace
+tink/grpc-server/events.go: {"insertSpaces":false,"tabSize":8}
+tink/informers/informer.go: {"insertSpaces":false,"tabSize":8}

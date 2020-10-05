@@ -1,0 +1,17 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/webcal=google-chrome.desktop
+video/mp4=vlc_vlc.desktop
+video/x-matroska=vlc_vlc.desktop
+
+[Added Associations]
+text/plain=sublime_text.desktop;
+image/png=eog.desktop;shotwell-viewer.desktop;
+text/x-go=sublime_text.desktop;
+application/x-shellscript=sublime_text.desktop;
+video/mp4=vlc_vlc.desktop;
+video/x-matroska=vlc_vlc.desktop;

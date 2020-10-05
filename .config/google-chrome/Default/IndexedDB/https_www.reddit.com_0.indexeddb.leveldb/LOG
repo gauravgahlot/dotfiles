@@ -1,0 +1,7 @@
+2020/05/13-14:08:52.151 4718 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/13-14:08:52.151 4718 Recovering log #3
+2020/05/13-14:08:52.197 4718 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2020/05/13-14:09:25.396 11ca Level-0 table #5: started
+2020/05/13-14:09:25.980 11ca Level-0 table #5: 4515 bytes OK
+2020/05/13-14:09:26.774 11ca Delete type=0 #3
+2020/05/13-14:09:26.774 11ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

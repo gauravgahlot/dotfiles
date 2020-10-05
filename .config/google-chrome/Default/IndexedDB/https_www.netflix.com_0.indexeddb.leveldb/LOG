@@ -1,0 +1,15 @@
+2020/04/20-15:00:19.900 cb7 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/20-15:00:19.900 cb7 Recovering log #859
+2020/04/20-15:00:19.900 cb7 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000859.log 
+2020/04/20-15:07:29.218 1960 Level-0 table #864: started
+2020/04/20-15:07:30.112 1960 Level-0 table #864: 131387 bytes OK
+2020/04/20-15:07:30.151 1960 Delete type=0 #859
+2020/04/20-15:07:30.152 1960 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/04/20-15:07:30.152 1960 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x02\x00n\x00h' @ 2106581 : 1
+2020/04/20-15:07:30.152 1960 Compacting 1@1 + 1@2 files
+2020/04/20-15:07:30.207 1960 Generated table #865@1: 34 keys, 62675 bytes
+2020/04/20-15:07:30.207 1960 Compacted 1@1 + 1@2 files => 62675 bytes
+2020/04/20-15:07:31.024 1960 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/20-15:07:31.024 1960 Delete type=2 #861
+2020/04/20-15:07:31.024 1960 Delete type=2 #864
+2020/04/20-15:07:31.025 1960 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x02\x00n\x00h' @ 2106581 : 1 .. (end); will stop at (end)

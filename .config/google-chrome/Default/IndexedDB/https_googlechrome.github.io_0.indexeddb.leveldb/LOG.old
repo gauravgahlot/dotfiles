@@ -1,0 +1,5 @@
+2020/09/28-15:02:59.209 663a Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_googlechrome.github.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/28-15:03:23.548 195a Level-0 table #5: started
+2020/09/28-15:03:23.573 195a Level-0 table #5: 827 bytes OK
+2020/09/28-15:03:23.645 195a Delete type=0 #3
+2020/09/28-15:03:23.645 195a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

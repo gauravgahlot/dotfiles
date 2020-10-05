@@ -1,0 +1,5 @@
+2020/09/21-09:34:30.554 59fc Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/21-09:34:33.936 1390 Level-0 table #5: started
+2020/09/21-09:34:33.987 1390 Level-0 table #5: 1286 bytes OK
+2020/09/21-09:34:34.080 1390 Delete type=0 #3
+2020/09/21-09:34:34.081 1390 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

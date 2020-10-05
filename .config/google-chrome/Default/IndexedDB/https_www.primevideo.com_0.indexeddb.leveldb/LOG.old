@@ -1,0 +1,6 @@
+2020/04/02-02:42:03.948 3ea4 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/02-02:42:03.949 3ea4 Recovering log #7
+2020/04/02-02:42:04.000 3ea4 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/000007.log 
+2020/04/02-02:42:05.178 1f99 Level-0 table #11: started
+2020/04/02-02:42:05.393 1f99 Level-0 table #11: 3288983 bytes OK
+2020/04/02-02:42:05.467 1f99 Delete type=0 #7

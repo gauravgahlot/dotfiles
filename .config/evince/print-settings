@@ -1,0 +1,36 @@
+[Print Settings]
+cups-TonerDensity=3
+cups-job-sheets=none,none
+print-at-time=
+print-at=now
+cover-before=none
+cups-number-up=1
+cups-Resolution=600dpi
+cover-after=none
+cups-InputSlot=Auto
+cups-EconoMode=0
+evince-print-setting-page-size=false
+cups-JamRecovery=False
+resolution-x=600
+resolution-y=600
+default-source=Auto
+cups-Altitude=LOW
+media-type=OFF
+resolution=600
+evince-print-setting-page-scale=1
+cups-job-priority=50
+cups-MediaType=OFF
+evince-print-setting-page-autorotate=true
+cups-PowerSave=5
+printer=SCX-3400-Series
+
+[Page Setup]
+PPDName=A4
+DisplayName=A4
+Width=210
+Height=297
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

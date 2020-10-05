@@ -1,0 +1,15 @@
+2020/09/30-13:18:31.714 7b45 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/30-13:18:31.714 7b45 Recovering log #4
+2020/09/30-13:18:31.714 7b45 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000004.log 
+2020/09/30-16:02:03.446 1488 Level-0 table #8: started
+2020/09/30-16:02:03.472 1488 Level-0 table #8: 870 bytes OK
+2020/09/30-16:02:03.512 1488 Delete type=0 #4
+2020/09/30-16:02:03.512 1488 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/30-16:02:03.512 1488 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 246 : 1
+2020/09/30-16:02:03.512 1488 Compacting 1@1 + 1@2 files
+2020/09/30-16:02:03.538 1488 Generated table #9@1: 30 keys, 814 bytes
+2020/09/30-16:02:03.538 1488 Compacted 1@1 + 1@2 files => 814 bytes
+2020/09/30-16:02:03.594 1488 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/30-16:02:03.595 1488 Delete type=2 #5
+2020/09/30-16:02:03.595 1488 Delete type=2 #8
+2020/09/30-16:02:03.595 1488 Manual compaction at level-1 from '\x00\x01\x01 \x01\x02\x00e\x00n\x00\x01\x13\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00p\x00r\x00e\x00f\x00e\x00r\x00e\x00n\x00c\x00e' @ 246 : 1 .. (end); will stop at (end)

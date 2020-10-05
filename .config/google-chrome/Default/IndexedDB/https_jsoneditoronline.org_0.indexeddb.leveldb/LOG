@@ -1,0 +1,15 @@
+2020/08/20-15:25:27.851 4e87 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_jsoneditoronline.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/20-15:25:27.852 4e87 Recovering log #62
+2020/08/20-15:25:27.852 4e87 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_jsoneditoronline.org_0.indexeddb.leveldb/000062.log 
+2020/08/20-16:23:32.807 154e Level-0 table #67: started
+2020/08/20-16:23:32.833 154e Level-0 table #67: 190 bytes OK
+2020/08/20-16:23:32.873 154e Delete type=0 #62
+2020/08/20-16:23:32.873 154e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/20-16:23:32.873 154e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 2829 : 1
+2020/08/20-16:23:32.873 154e Compacting 1@1 + 1@2 files
+2020/08/20-16:23:32.899 154e Generated table #68@1: 26 keys, 8261 bytes
+2020/08/20-16:23:32.899 154e Compacted 1@1 + 1@2 files => 8261 bytes
+2020/08/20-16:23:32.939 154e compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-16:23:32.939 154e Delete type=2 #64
+2020/08/20-16:23:32.939 154e Delete type=2 #67
+2020/08/20-16:23:32.940 154e Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 2829 : 1 .. (end); will stop at (end)

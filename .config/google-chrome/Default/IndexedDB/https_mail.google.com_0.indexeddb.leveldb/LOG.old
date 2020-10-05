@@ -1,0 +1,9 @@
+2020/10/01-18:02:52.598 1444 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/01-18:02:52.598 1444 Recovering log #105
+2020/10/01-18:02:52.598 1444 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000105.log 
+2020/10/01-18:02:58.724 152d Compacting 1@1 + 1@2 files
+2020/10/01-18:02:58.876 152d Generated table #108@1: 123 keys, 52319 bytes
+2020/10/01-18:02:58.876 152d Compacted 1@1 + 1@2 files => 52319 bytes
+2020/10/01-18:02:59.207 152d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/01-18:02:59.208 152d Delete type=2 #103
+2020/10/01-18:02:59.208 152d Delete type=2 #106

@@ -1,0 +1,57 @@
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:8: exported function GetEvents should have comment or be unexported
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:8: comment on exported function GetEvents should be of the form "GetEvents ..."
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:11: exported function GetEvents should have comment or be unexported
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+
+Starting linting the current package at /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock
+/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock>Finished running tool: /home/quickdev/go/bin/golint
+

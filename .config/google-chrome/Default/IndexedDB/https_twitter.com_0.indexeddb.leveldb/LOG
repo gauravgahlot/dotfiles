@@ -1,0 +1,15 @@
+2020/10/02-18:20:03.773 493a Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/10/02-18:20:03.773 493a Recovering log #181
+2020/10/02-18:20:03.773 493a Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000181.log 
+2020/10/02-18:20:54.618 3a77 Level-0 table #186: started
+2020/10/02-18:20:55.070 3a77 Level-0 table #186: 1855 bytes OK
+2020/10/02-18:20:55.502 3a77 Delete type=0 #181
+2020/10/02-18:20:55.502 3a77 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/10/02-18:20:55.503 3a77 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x03\x01\x0d\x001\x006\x000\x001\x006\x004\x003\x000\x000\x004\x003\x005\x000' @ 14409 : 1
+2020/10/02-18:20:55.503 3a77 Compacting 1@1 + 1@2 files
+2020/10/02-18:20:55.790 3a77 Generated table #187@1: 65 keys, 243392 bytes
+2020/10/02-18:20:55.790 3a77 Compacted 1@1 + 1@2 files => 243392 bytes
+2020/10/02-18:20:56.231 3a77 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/10/02-18:20:56.231 3a77 Delete type=2 #183
+2020/10/02-18:20:56.231 3a77 Delete type=2 #186
+2020/10/02-18:20:56.232 3a77 Manual compaction at level-1 from '\x00\x03\x01\x03\x01\x0d\x001\x006\x000\x001\x006\x004\x003\x000\x000\x004\x003\x005\x000' @ 14409 : 1 .. (end); will stop at (end)

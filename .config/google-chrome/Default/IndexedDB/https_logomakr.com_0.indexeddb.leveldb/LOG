@@ -1,0 +1,5 @@
+2020/09/27-19:33:55.510 53b4 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_logomakr.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/27-19:34:27.482 27ff Level-0 table #5: started
+2020/09/27-19:34:28.370 27ff Level-0 table #5: 3551 bytes OK
+2020/09/27-19:34:28.424 27ff Delete type=0 #3
+2020/09/27-19:34:28.425 27ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

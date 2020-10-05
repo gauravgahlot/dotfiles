@@ -1,0 +1,668 @@
+[Info  - 5:42:32 pm] 2020/09/29 17:42:32 Build info
+----------
+golang.org/x/tools/gopls 0.4.1
+    golang.org/x/tools/gopls@v0.4.1 h1:0e3BPxGV4B3cd0zdMuccwW72SgmHp92lAjOyxX/ScAw=
+    github.com/BurntSushi/toml@v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
+    github.com/sergi/go-diff@v1.1.0 h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=
+    golang.org/x/mod@v0.2.0 h1:KU7oHjnv3XNWfa5COkzUifxZmxp1TyI7ImMXqFxLwvQ=
+    golang.org/x/sync@v0.0.0-20190911185100-cd5d95a43a6e h1:vcxGaoTs7kV8m5Np9uUNQin4BrLOthgV7252N8V+FwY=
+    golang.org/x/tools@v0.0.0-20200513154647-78b527d18275 h1:e7nYe9s94RHunFJ7b+mmPxiQMOKMVSqYASToWb1EcHs=
+    golang.org/x/xerrors@v0.0.0-20191204190536-9bdfabe68543 h1:E7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=
+    honnef.co/go/tools@v0.0.1-2020.1.3 h1:sXmLre5bzIR6ypkjXCDI3jHPssRhc8KD/Ome589sc3U=
+    mvdan.cc/xurls/v2@v2.1.0 h1:KaMb5GLhlcSX+e+qhbRJODnUUBvlw01jt4yrjFIHAuA=
+
+Go info
+-------
+go version go1.13.1 linux/amd64
+
+
+
+[Info  - 5:42:32 pm] 2020/09/29 17:42:32 go env for /home/quickdev/go/src/github.com/gauravgahlot/tink
+(valid build configuration = true)
+(build flags: [])
+GO111MODULE=""
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/home/quickdev/.cache/go-build"
+GOENV="/home/quickdev/.config/go/env"
+GOEXE=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="linux"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="linux"
+GOPATH="/home/quickdev/go"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/usr/local/go"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/usr/local/go/pkg/tool/linux_amd64"
+GCCGO="gccgo"
+AR="ar"
+CC="gcc"
+CXX="g++"
+CGO_ENABLED="1"
+GOMOD="/home/quickdev/go/src/github.com/gauravgahlot/tink/go.mod"
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build089926215=/tmp/go-build -gno-record-gcc-switches"
+
+
+[Info  - 5:42:33 pm] 2020/09/29 17:42:33 go/packages.Load
+	snapshot=0
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[./... builtin]
+	packages=34
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/cmd/tink-server github.com/tinkerbell/tink/db github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server github.com/tinkerbell/tink/grpc-server]
+	packages=6
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/db"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/workflow.go]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/cmd/tink-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-server/main.go]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go]
+	packages=1
+
+[Info  - 5:42:36 pm] 2020/09/29 17:42:36 go/packages.Load
+	snapshot=3
+	package_path="github.com/tinkerbell/tink/db"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/workflow.go]
+
+[Info  - 5:43:04 pm] 2020/09/29 17:43:04 background imports cache refresh starting
+
+[Info  - 5:43:05 pm] 2020/09/29 17:43:05 background refresh finished after 1.253814457s
+
+[Error - 5:43:43 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/db.go:64:80: expected ';', found e (and 3 more errors)
+  Code: 0 
+[Info  - 5:44:11 pm] 2020/09/29 17:44:11 background imports cache refresh starting
+
+[Info  - 5:44:11 pm] 2020/09/29 17:44:11 background refresh finished after 149.196986ms
+
+[Info  - 6:03:51 pm] 2020/09/29 18:03:51 background imports cache refresh starting
+
+[Info  - 6:03:51 pm] 2020/09/29 18:03:51 background refresh finished after 161.68064ms
+
+[Info  - 6:12:04 pm] 2020/09/29 18:12:04 background imports cache refresh starting
+
+[Info  - 6:12:04 pm] 2020/09/29 18:12:04 background refresh finished after 185.396799ms
+
+[Info  - 6:12:36 pm] 2020/09/29 18:12:36 background imports cache refresh starting
+
+[Info  - 6:12:36 pm] 2020/09/29 18:12:36 background refresh finished after 181.457514ms
+
+[Info  - 6:13:07 pm] 2020/09/29 18:13:07 background imports cache refresh starting
+
+[Info  - 6:13:07 pm] 2020/09/29 18:13:07 background refresh finished after 148.19944ms
+
+[Info  - 6:13:38 pm] 2020/09/29 18:13:38 background imports cache refresh starting
+
+[Info  - 6:13:38 pm] 2020/09/29 18:13:38 background refresh finished after 164.472026ms
+
+[Info  - 6:14:19 pm] 2020/09/29 18:14:19 background imports cache refresh starting
+
+[Info  - 6:14:20 pm] 2020/09/29 18:14:20 background refresh finished after 161.295217ms
+
+[Error - 6:14:29 pm] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 6:14:29 pm] 2020/09/29 18:14:29 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+
+[Error - 6:14:29 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go:31:1: expected '(', found '}' (and 5 more errors)
+  Code: 0 
+[Error - 6:14:30 pm] 2020/09/29 18:14:30 no signature help: no signature help within a function declaration
+	position={29 20}
+
+[Error - 6:14:34 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go:30:32: expected 'IDENT', found ')' (and 8 more errors)
+  Code: 0 
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go]
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go]
+	packages=1
+
+[Info  - 6:14:42 pm] 2020/09/29 18:14:42 go/packages.Load
+	snapshot=91
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go]
+
+[Error - 6:14:42 pm] 2020/09/29 18:14:42 no signature help: no signature help within a function declaration
+	position={30 44}
+
+[Error - 6:14:43 pm] 2020/09/29 18:14:43 no completions found: this is a definition of var f invalid type
+	position={30 46}
+
+[Error - 6:14:43 pm] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 6:14:43 pm] 2020/09/29 18:14:43 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+
+[Error - 6:14:43 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go:31:48: expected type, found ')' (and 8 more errors)
+  Code: 0 
+[Info  - 6:14:51 pm] 2020/09/29 18:14:51 background imports cache refresh starting
+
+[Info  - 6:14:51 pm] 2020/09/29 18:14:51 background refresh finished after 158.91649ms
+
+[Error - 6:14:56 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go:31:48: expected type, found ')' (and 8 more errors)
+  Code: 0 
+[Error - 6:15:00 pm] Request textDocument/foldingRange failed.
+  Message: invalid pos
+  Code: 0 
+[Error - 6:15:01 pm] 2020/09/29 18:15:01 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go
+
+[Info  - 6:15:27 pm] 2020/09/29 18:15:27 background imports cache refresh starting
+
+[Info  - 6:15:27 pm] 2020/09/29 18:15:27 background refresh finished after 165.454208ms
+
+[Info  - 6:15:36 pm] 2020/09/29 18:15:36 go/packages.Load
+	snapshot=119
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:15:36 pm] 2020/09/29 18:15:36 go/packages.Load
+	snapshot=119
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go]
+
+[Info  - 6:15:36 pm] 2020/09/29 18:15:36 go/packages.Load
+	snapshot=119
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:15:36 pm] 2020/09/29 18:15:36 go/packages.Load
+	snapshot=119
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:15:36 pm] 2020/09/29 18:15:36 go/packages.Load
+	snapshot=119
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:15:37 pm] 2020/09/29 18:15:37 go/packages.Load
+	snapshot=119
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Info  - 6:15:37 pm] 2020/09/29 18:15:37 go/packages.Load
+	snapshot=119
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Error - 6:15:37 pm] 2020/09/29 18:15:37 failed to compute document links: no PackageHandles
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Error - 6:15:37 pm] Request textDocument/codeLens failed.
+  Message: successfully parsed but no token.File for file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go (/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:1:1: expected ';', found 'EOF' (and 2 more errors))
+  Code: 0 
+[Info  - 6:15:37 pm] 2020/09/29 18:15:37 go/packages.Load
+	snapshot=119
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Error - 6:15:37 pm] 2020/09/29 18:15:37 DocumentSymbols failed: getting file for DocumentSymbols: no PackageHandles
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Info  - 6:15:38 pm] 2020/09/29 18:15:38 go/packages.Load
+	snapshot=121
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Info  - 6:15:38 pm] 2020/09/29 18:15:38 go/packages.Load
+	snapshot=121
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Error - 6:15:38 pm] 2020/09/29 18:15:38 no completions found: getting file for Completion: no PackageHandles
+	position={0 2}
+
+[Error - 6:15:38 pm] Request textDocument/foldingRange failed.
+  Message: successfully parsed but no token.File for file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go (/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:1:1: expected 'package', found pack (and 2 more errors))
+  Code: 0 
+[Error - 6:15:38 pm] Request textDocument/codeLens failed.
+  Message: successfully parsed but no token.File for file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go (/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:1:1: expected 'package', found pack (and 2 more errors))
+  Code: 0 
+[Error - 6:15:38 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: successfully parsed but no token.File for file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go (/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:1:1: expected 'package', found pack (and 2 more errors))
+  Code: 0 
+[Info  - 6:15:38 pm] 2020/09/29 18:15:38 go/packages.Load
+	snapshot=123
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Info  - 6:15:38 pm] 2020/09/29 18:15:38 go/packages.Load
+	snapshot=123
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Error - 6:15:38 pm] 2020/09/29 18:15:38 failed to compute document links: no PackageHandles
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=126
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=126
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=0
+
+[Error - 6:15:39 pm] 2020/09/29 18:15:39 no completions found: getting file for Completion: no PackageHandles
+	position={0 7}
+
+[Error - 6:15:39 pm] Request textDocument/codeLens failed.
+  Message: successfully parsed but no token.File for file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go (/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:1:8: expected ';', found 'EOF' (and 1 more errors))
+  Code: 0 
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=1
+
+[Info  - 6:15:39 pm] 2020/09/29 18:15:39 go/packages.Load
+	snapshot=128
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=1
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=129
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=131
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=131
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=131
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=131
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:15:40 pm] 2020/09/29 18:15:40 go/packages.Load
+	snapshot=131
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:15:59 pm] 2020/09/29 18:15:59 background imports cache refresh starting
+
+[Info  - 6:15:59 pm] 2020/09/29 18:15:59 background refresh finished after 157.553279ms
+
+[Error - 6:16:03 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:3:5: expected '(', found 'EOF' (and 4 more errors)
+  Code: 0 
+[Error - 6:16:03 pm] 2020/09/29 18:16:03 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Error - 6:16:03 pm] 2020/09/29 18:16:03 no completions found: this is a definition of func G(invalid type)
+	position={2 6}
+
+[Error - 6:16:04 pm] 2020/09/29 18:16:04 no completions found: this is a definition of func Get(invalid type)
+	position={2 8}
+
+[Error - 6:16:04 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:3:9: expected '(', found newline (and 3 more errors)
+  Code: 0 
+[Error - 6:16:04 pm] 2020/09/29 18:16:04 no completions found: this is a definition of func GetE(invalid type)
+	position={2 9}
+
+[Error - 6:16:04 pm] 2020/09/29 18:16:04 no completions found: this is a definition of func GetEv(invalid type)
+	position={2 10}
+
+[Error - 6:16:04 pm] 2020/09/29 18:16:04 no completions found: this is a definition of func GetEve(invalid type)
+	position={2 11}
+
+[Error - 6:16:05 pm] 2020/09/29 18:16:05 no completions found: this is a definition of func GetEven(invalid type)
+	position={2 12}
+
+[Error - 6:16:05 pm] 2020/09/29 18:16:05 no completions found: this is a definition of func GetEvent(invalid type)
+	position={2 13}
+
+[Error - 6:16:05 pm] 2020/09/29 18:16:05 no completions found: this is a definition of func GetEvents(invalid type)
+	position={2 14}
+
+[Error - 6:16:05 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:3:15: expected '(', found newline (and 3 more errors)
+  Code: 0 
+[Error - 6:16:05 pm] 2020/09/29 18:16:05 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Error - 6:16:06 pm] 2020/09/29 18:16:06 no signature help: cannot find an enclosing function
+	position={2 16}
+
+[Error - 6:16:11 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:3:27: expected 'IDENT', found ')' (and 3 more errors)
+  Code: 0 
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=1
+
+[Info  - 6:16:13 pm] 2020/09/29 18:16:13 go/packages.Load
+	snapshot=170
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Error - 6:16:14 pm] 2020/09/29 18:16:14 no signature help: cannot find an enclosing function
+	position={4 40}
+
+[Error - 6:16:15 pm] 2020/09/29 18:16:15 no completions found: this is a definition of var f invalid type
+	position={4 41}
+
+[Error - 6:16:15 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:43: expected type, found ')' (and 3 more errors)
+  Code: 0 
+[Error - 6:16:16 pm] 2020/09/29 18:16:16 DocumentSymbols failed: invalid pos
+	URI=file:///home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go
+
+[Error - 6:16:17 pm] 2020/09/29 18:16:17 no signature help: cannot find an enclosing function
+	position={4 44}
+
+[Error - 6:16:17 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:44: expected type, found ')'
+  Code: 0 
+[Error - 6:16:18 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:44: expected type, found ')'
+  Code: 0 
+[Error - 6:16:20 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:44: expected type, found ')'
+  Code: 0 
+[Error - 6:16:20 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:45: expected type, found ')'
+  Code: 0 
+[Info  - 6:16:29 pm] 2020/09/29 18:16:29 background imports cache refresh starting
+
+[Info  - 6:16:29 pm] 2020/09/29 18:16:29 background refresh finished after 205.796047ms
+
+[Info  - 6:16:31 pm] 2020/09/29 18:16:31 go/packages.Load
+	snapshot=199
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:16:31 pm] 2020/09/29 18:16:31 go/packages.Load
+	snapshot=199
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for k8s.io/api/auditregistration/v1alpha1
+	package="k8s.io/api/auditregistration/v1alpha1"
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for github.com/googleapis/gnostic/OpenAPIv2
+	package="github.com/googleapis/gnostic/OpenAPIv2"
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for k8s.io/api/auditregistration/v1alpha1
+	package="k8s.io/api/auditregistration/v1alpha1"
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for k8s.io/api/auditregistration/v1alpha1
+	package="k8s.io/api/auditregistration/v1alpha1"
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for k8s.io/api/auditregistration/v1alpha1
+	package="k8s.io/api/auditregistration/v1alpha1"
+
+[Error - 6:16:31 pm] 2020/09/29 18:16:31 no dep handle: no metadata for k8s.io/api/auditregistration/v1alpha1
+	package="k8s.io/api/auditregistration/v1alpha1"
+
+[Info  - 6:16:31 pm] 2020/09/29 18:16:31 go/packages.Load
+	snapshot=199
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:16:31 pm] 2020/09/29 18:16:31 go/packages.Load
+	snapshot=199
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:16:31 pm] 2020/09/29 18:16:31 go/packages.Load
+	snapshot=199
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:16:32 pm] 2020/09/29 18:16:32 go/packages.Load
+	snapshot=199
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=1
+
+[Info  - 6:16:32 pm] 2020/09/29 18:16:32 go/packages.Load
+	snapshot=199
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Error - 6:16:34 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:5:61: expected 'IDENT', found ')' (and 3 more errors)
+  Code: 0 
+[Error - 6:16:35 pm] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[github.com/tinkerbell/tink/db/mock github.com/tinkerbell/tink/grpc-server]
+	packages=4
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go]
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	package_path="github.com/tinkerbell/tink/grpc-server"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/events.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/grpc_server.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/hardware_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/template_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/tinkerbell_test.go /home/quickdev/go/src/github.com/gauravgahlot/tink/grpc-server/workflow_test.go]
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	package_path="github.com/tinkerbell/tink/grpc-server.test"
+	files=[/home/quickdev/.cache/go-build/8d/8dc03c0f5974213864621af13a934ba2ff954f53d318b5cc2b3491b4b26948cb-d]
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	directory=/home/quickdev/go/src/github.com/gauravgahlot/tink
+	query=[file=/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+	packages=1
+
+[Info  - 6:16:35 pm] 2020/09/29 18:16:35 go/packages.Load
+	snapshot=212
+	package_path="github.com/tinkerbell/tink/db/mock"
+	files=[/home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/hardware.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/mock.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/template.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/workflow.go /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go]
+
+[Error - 6:16:38 pm] Request textDocument/codeAction failed.
+  Message: computing fix edits: /home/quickdev/go/src/github.com/gauravgahlot/tink/db/mock/event.go:8:80: missing ',' before newline in parameter list
+  Code: 0 
+[Info  - 6:17:02 pm] 2020/09/29 18:17:02 background imports cache refresh starting
+
+[Info  - 6:17:02 pm] 2020/09/29 18:17:02 background refresh finished after 154.111465ms
+
+[Info  - 6:17:32 pm] 2020/09/29 18:17:32 background imports cache refresh starting
+
+[Info  - 6:17:32 pm] 2020/09/29 18:17:32 background refresh finished after 174.638067ms
+
+[Info  - 6:18:04 pm] 2020/09/29 18:18:04 background imports cache refresh starting
+
+[Info  - 6:18:04 pm] 2020/09/29 18:18:04 background refresh finished after 175.980992ms
+

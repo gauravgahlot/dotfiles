@@ -1,0 +1,5 @@
+2020/08/12-12:10:30.813 6cef Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_gaana.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/12-12:18:34.924 1164 Level-0 table #5: started
+2020/08/12-12:18:35.206 1164 Level-0 table #5: 2618 bytes OK
+2020/08/12-12:18:35.586 1164 Delete type=0 #3
+2020/08/12-12:18:35.586 1164 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

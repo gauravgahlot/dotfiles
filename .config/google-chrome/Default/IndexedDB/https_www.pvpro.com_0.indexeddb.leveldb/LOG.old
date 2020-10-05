@@ -1,0 +1,5 @@
+2020/04/28-18:24:58.496 6505 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.pvpro.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/28-18:25:17.660 177c Level-0 table #5: started
+2020/04/28-18:25:17.703 177c Level-0 table #5: 5925 bytes OK
+2020/04/28-18:25:17.786 177c Delete type=0 #3
+2020/04/28-18:25:17.786 177c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
