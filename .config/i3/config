@@ -181,9 +181,11 @@ bindsym $mod+r mode "resize"
 
 
 # Startup
-# exec --no-startup-id google-chrome
-# exec --no-startup-id slack
-# exec --no-startup-id gnome-terminal
+exec --no-startup-id google-chrome
+exec --no-startup-id slack
+exec --no-startup-id gnome-terminal
+exec --no-startup-id nm-applet
+
 
 # Shutdown
 bindsym $mod+Shift+z exec shutdown -P 0
@@ -213,7 +215,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle # mute mic
 
 # Set the wallpaper
-exec_always feh --bg-fill /home/quickdev/Pictures/wallpapers/wall.jpg
+exec_always feh --bg-fill /home/quickdev/Downloads/wall.jpg
 
 # Lock screen
 bindsym $mod+x exec i3lock -c 000000 
