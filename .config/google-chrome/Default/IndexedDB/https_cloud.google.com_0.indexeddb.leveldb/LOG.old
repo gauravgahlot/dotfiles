@@ -1,7 +1,0 @@
-2020/09/03-11:30:34.841 2275 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_cloud.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/03-11:30:34.841 2275 Recovering log #3
-2020/09/03-11:30:34.849 2275 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_cloud.google.com_0.indexeddb.leveldb/000003.log 
-2020/09/03-11:34:07.731 168d Level-0 table #5: started
-2020/09/03-11:34:07.756 168d Level-0 table #5: 3275 bytes OK
-2020/09/03-11:34:07.797 168d Delete type=0 #3
-2020/09/03-11:34:07.817 168d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

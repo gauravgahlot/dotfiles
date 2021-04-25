@@ -1,5 +1,0 @@
-2020/07/21-12:18:51.971 9b8 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_notify.indianexpress.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/21-12:21:08.188 117e Level-0 table #5: started
-2020/07/21-12:21:08.225 117e Level-0 table #5: 1412 bytes OK
-2020/07/21-12:21:08.275 117e Delete type=0 #3
-2020/07/21-12:21:08.275 117e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

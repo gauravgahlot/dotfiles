@@ -1,5 +1,0 @@
-2020/09/27-19:15:08.008 4e80 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_in.yahoo.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/27-19:15:11.987 27ff Level-0 table #5: started
-2020/09/27-19:15:12.021 27ff Level-0 table #5: 1491 bytes OK
-2020/09/27-19:15:12.082 27ff Delete type=0 #3
-2020/09/27-19:15:12.083 27ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

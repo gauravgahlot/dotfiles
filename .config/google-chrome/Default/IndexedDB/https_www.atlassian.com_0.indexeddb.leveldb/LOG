@@ -1,7 +1,0 @@
-2020/08/19-17:45:24.824 498b Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-17:45:24.825 498b Recovering log #3
-2020/08/19-17:45:24.906 498b Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_www.atlassian.com_0.indexeddb.leveldb/000003.log 
-2020/08/19-18:25:00.429 154e Level-0 table #5: started
-2020/08/19-18:25:00.612 154e Level-0 table #5: 1339 bytes OK
-2020/08/19-18:25:00.875 154e Delete type=0 #3
-2020/08/19-18:25:00.875 154e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

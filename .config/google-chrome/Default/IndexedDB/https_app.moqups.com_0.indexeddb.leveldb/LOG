@@ -1,5 +1,0 @@
-2020/05/12-15:01:33.721 689d Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_app.moqups.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/12-15:01:47.269 11ca Level-0 table #5: started
-2020/05/12-15:01:47.712 11ca Level-0 table #5: 858 bytes OK
-2020/05/12-15:01:48.570 11ca Delete type=0 #3
-2020/05/12-15:01:48.570 11ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

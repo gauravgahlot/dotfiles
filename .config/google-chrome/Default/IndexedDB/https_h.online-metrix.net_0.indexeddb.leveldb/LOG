@@ -1,8 +1,0 @@
-2020/06/13-22:31:04.601 e96 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/13-22:31:04.601 e96 Recovering log #10
-2020/06/13-22:31:04.601 e96 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000010.log 
-2020/06/13-22:31:15.405 3a05 Level-0 table #14: started
-2020/06/13-22:31:15.405 3a05 Level-0 table #14: 0 bytes OK
-2020/06/13-22:31:15.932 3a05 Delete type=0 #10
-2020/06/13-22:31:15.932 3a05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/13-22:31:15.932 3a05 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

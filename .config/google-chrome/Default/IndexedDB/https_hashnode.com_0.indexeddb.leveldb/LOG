@@ -1,5 +1,0 @@
-2020/09/30-10:41:10.958 5c9c Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_hashnode.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/30-10:41:24.497 1488 Level-0 table #5: started
-2020/09/30-10:41:24.548 1488 Level-0 table #5: 5109 bytes OK
-2020/09/30-10:41:24.602 1488 Delete type=0 #3
-2020/09/30-10:41:24.603 1488 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

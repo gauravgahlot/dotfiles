@@ -1,8 +1,0 @@
-2020/09/30-10:21:29.195 5b2d Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_infracloud.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/30-10:21:29.196 5b2d Recovering log #58
-2020/09/30-10:21:29.196 5b2d Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_infracloud.atlassian.net_0.indexeddb.leveldb/000058.log 
-2020/09/30-10:22:19.823 1488 Level-0 table #63: started
-2020/09/30-10:22:19.823 1488 Level-0 table #63: 0 bytes OK
-2020/09/30-10:22:19.878 1488 Delete type=0 #58
-2020/09/30-10:22:19.878 1488 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/30-10:22:19.878 1488 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

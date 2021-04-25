@@ -1,6 +1,0 @@
-2020/01/23-21:13:31.787 2ba9 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/http_app.packet.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/01/23-21:13:31.787 2ba9 Recovering log #3
-2020/01/23-21:13:31.797 2ba9 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/http_app.packet.net_0.indexeddb.leveldb/000003.log 
-2020/01/23-21:13:32.541 2c77 Level-0 table #5: started
-2020/01/23-21:13:33.653 2c77 Level-0 table #5: 874832 bytes OK
-2020/01/23-21:13:33.694 2c77 Delete type=0 #3

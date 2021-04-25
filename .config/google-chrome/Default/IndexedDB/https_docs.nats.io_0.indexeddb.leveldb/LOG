@@ -1,5 +1,0 @@
-2020/09/04-14:19:15.989 2d84 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_docs.nats.io_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/04-14:19:35.666 1836 Level-0 table #5: started
-2020/09/04-14:19:35.691 1836 Level-0 table #5: 1144 bytes OK
-2020/09/04-14:19:35.745 1836 Delete type=0 #3
-2020/09/04-14:19:35.745 1836 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

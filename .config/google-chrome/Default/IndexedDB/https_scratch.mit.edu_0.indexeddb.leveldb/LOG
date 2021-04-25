@@ -1,8 +1,0 @@
-2020/05/28-16:02:08.432 1df Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_scratch.mit.edu_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/28-16:02:08.433 1df Recovering log #4
-2020/05/28-16:02:08.433 1df Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_scratch.mit.edu_0.indexeddb.leveldb/000004.log 
-2020/05/28-16:03:17.746 136e Level-0 table #8: started
-2020/05/28-16:03:17.746 136e Level-0 table #8: 0 bytes OK
-2020/05/28-16:03:17.886 136e Delete type=0 #4
-2020/05/28-16:03:17.887 136e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/05/28-16:03:17.887 136e Manual compaction at level-1 from (begin) .. (end); will stop at (end)

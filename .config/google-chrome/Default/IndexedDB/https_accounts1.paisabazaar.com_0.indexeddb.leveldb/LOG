@@ -1,5 +1,0 @@
-2020/08/12-14:53:15.523 151a Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_accounts1.paisabazaar.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/12-14:53:21.189 1164 Level-0 table #5: started
-2020/08/12-14:53:21.453 1164 Level-0 table #5: 1171 bytes OK
-2020/08/12-14:53:22.005 1164 Delete type=0 #3
-2020/08/12-14:53:22.005 1164 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

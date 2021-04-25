@@ -1,5 +1,0 @@
-2020/08/17-10:19:54.191 2224 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_wchat.in.freshchat.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/17-10:20:27.032 1c32 Level-0 table #5: started
-2020/08/17-10:20:27.058 1c32 Level-0 table #5: 16734 bytes OK
-2020/08/17-10:20:27.111 1c32 Delete type=0 #3
-2020/08/17-10:20:27.112 1c32 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

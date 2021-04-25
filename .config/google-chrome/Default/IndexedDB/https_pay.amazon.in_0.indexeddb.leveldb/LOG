@@ -1,7 +1,0 @@
-2020/06/22-12:56:27.955 5956 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_pay.amazon.in_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/22-12:56:27.955 5956 Recovering log #3
-2020/06/22-12:56:27.956 5956 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_pay.amazon.in_0.indexeddb.leveldb/000003.log 
-2020/06/22-12:56:38.256 188c Level-0 table #5: started
-2020/06/22-12:56:38.290 188c Level-0 table #5: 1642 bytes OK
-2020/06/22-12:56:38.329 188c Delete type=0 #3
-2020/06/22-12:56:38.329 188c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

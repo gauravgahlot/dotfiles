@@ -1,5 +1,0 @@
-2020/09/09-13:02:53.930 1ec2 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_studio.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/09-13:02:57.398 1dd3 Level-0 table #5: started
-2020/09/09-13:02:57.424 1dd3 Level-0 table #5: 409 bytes OK
-2020/09/09-13:02:57.477 1dd3 Delete type=0 #3
-2020/09/09-13:02:57.477 1dd3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

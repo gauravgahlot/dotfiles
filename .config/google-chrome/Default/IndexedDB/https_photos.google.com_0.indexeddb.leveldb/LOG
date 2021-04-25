@@ -1,7 +1,0 @@
-2020/07/10-15:58:35.901 7dd0 Reusing MANIFEST /home/quickdev/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/10-15:58:35.902 7dd0 Recovering log #3
-2020/07/10-15:58:35.909 7dd0 Reusing old log /home/quickdev/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000003.log 
-2020/07/10-16:00:10.980 12f6 Level-0 table #5: started
-2020/07/10-16:00:11.112 12f6 Level-0 table #5: 3704 bytes OK
-2020/07/10-16:00:11.151 12f6 Delete type=0 #3
-2020/07/10-16:00:11.151 12f6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

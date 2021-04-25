@@ -1,8 +1,0 @@
-[2020-10-01 09:57:25.352] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
-	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:11:190)
-	at new ie (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:392:819)
-	at new ie (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:375:558)
-	at new ProtocolDocumentLink (/home/quickdev/.vscode/extensions/golang.go-0.15.2/node_modules/vscode-languageclient/lib/protocolDocumentLink.js:10:9)
-	at asDocumentLink (/home/quickdev/.vscode/extensions/golang.go-0.15.2/node_modules/vscode-languageclient/lib/protocolConverter.js:591:20)
-	at Array.map (<anonymous>)
-	at asDocumentLinks (/home/quickdev/.vscode/extensions/golang.go-0.15.2/node_modules/vscode-languageclient/lib/protocolConverter.js:604:22)
