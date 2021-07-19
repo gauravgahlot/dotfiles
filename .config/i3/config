@@ -33,6 +33,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # Kill focused window
 bindsym $mod+Shift+q kill
 
+# Start ranger
+bindsym $mod+Shift+f exec alacritty -e ranger
+
 # Use pactl to adjust volume in PulseAudio.
 # exec --no-startup-id volumeicon
 # set $refresh_i3status killall -SIGUSR1 i3status
