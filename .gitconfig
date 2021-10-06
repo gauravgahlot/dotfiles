@@ -1,0 +1,18 @@
+[credential]
+[user]
+	name = Gaurav Gahlot
+	email = email-here 
+	signingkey = gpg-signingkey-here
+[commit]
+	gpgSign = true
+[credential]
+	helper = store
+[gpg]
+	program = gpg
+[core]
+	editor = nvim
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
