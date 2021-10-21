@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
-let g:netrw_dirhist_5='/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd/get'
-let g:netrw_dirhist_4='/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli/cmd'
-let g:netrw_dirhist_3='/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd/tink-cli'
-let g:netrw_dirhist_2='/home/quickdev/go/src/github.com/gauravgahlot/tink/cmd'
-let g:netrw_dirhist_1='/home/quickdev/go/src/github.com/gauravgahlot/tink'
