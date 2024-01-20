@@ -4,20 +4,27 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export LC_CTYPE=en_US.UTF-8
-
-# Other important Path(s)
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN:/usr/local/go/bin
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/bin
+
+# Add Python bin to PATH for AWS CLI to work 
+export PATH=$PATH:~/Library/Python/3.9/bin
+
+export LC_CTYPE=en_US.UTF-8
+
+# Avoid STS (less) prompt
+export PAGER=""
 
 # Sign every commit with GPG
 export GPG_TTY=$(tty)
 
-# Set GOPRIVATE for private imports
-# go env -w GOPRIVATE=github.com/infracloudio/mapper
+# Set GOPRIVATE
+go env -w GOPRIVATE=github.com/acquia
+# go env -w GOPRIVATE=github.com/gauravgahlot
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -26,7 +33,7 @@ export GPG_TTY=$(tty)
 ZSH_THEME="spaceship"
 
 # theme settings
-SPACESHIP_KUBECONTEXT_SHOW=true
+SPACESHIP_KUBECTL_CONTEXT_SHOW=true
 SPACESHIP_KUBECTL_SHOW=true
 SPACESHIP_KUBECTL_VERSION_SHOW=false
 
@@ -43,14 +50,13 @@ SPACESHIP_KUBECTL_VERSION_SHOW=false
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -65,8 +71,9 @@ SPACESHIP_KUBECTL_VERSION_SHOW=false
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
-# See https://github.com/ohmyzsh/ohmyzsh/issues/5765
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 # COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
@@ -90,7 +97,11 @@ SPACESHIP_KUBECTL_VERSION_SHOW=false
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions)
+plugins=( 
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    z
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,10 +119,6 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
-export EDITOR='nvim'
-alias vi='nvim'
-alias vim='nvim'
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -124,13 +131,9 @@ alias vim='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# source custom alias exports
-source ~/.exportrc
+export EDITOR='nvim'
+alias vi='nvim'
+alias vim='nvim'
 
-# krew
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-
-# k9s
-export TERM=xterm-256color
-export K9S_EDITOR=nvim
+export KUBECONFIG=~/.kube/none.yaml
 
