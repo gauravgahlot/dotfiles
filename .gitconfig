@@ -1,18 +1,21 @@
-[credential]
 [user]
 	name = Gaurav Gahlot
 	email = email-here 
-	signingkey = gpg-signingkey-here
+	signingkey = gpg-key 
+[core]
+	editor = vim
 [commit]
-	gpgSign = true
-[credential]
-	helper = store
+	gpgsign = true
+[tag]
+	gpgsign = true
 [gpg]
 	program = gpg
-[core]
-	editor = nvim
-[filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
+[pull]
+	ff = only
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@github.com:gauravgahlot"]
+	insteadOf = https://github.com/gauravgahlot
+[credential]
+helper = osxkeychain # credential helper to be updated based on OS
+
