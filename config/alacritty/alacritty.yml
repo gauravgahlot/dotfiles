@@ -440,7 +440,7 @@ schemes:
       magenta: '0xd75f00'
       cyan:    '0x005faf'
       white:   '0x005f87'
-colors: *moonfly
+# colors: *moonfly
 
 
 ######################################################################
