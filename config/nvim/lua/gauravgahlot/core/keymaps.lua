@@ -38,3 +38,8 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in 
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+
+-- FloaTerm configuration
+keymap.set("n", "<leader>ft", ":FloatermNew --name=myfloat --height=0.9 --width=0.7 --autoclose=2 zsh<CR>")
+keymap.set("n", "t", ":FloatermToggle myfloat<CR>")
+keymap.set("t", "<Esc>", "<C-\\><C-n>:q<CR>")

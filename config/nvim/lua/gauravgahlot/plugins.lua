@@ -42,17 +42,16 @@ return packer.startup(function(use)
 
 	use("nvim-lualine/lualine.nvim") -- status line
 	use("nvim-tree/nvim-web-devicons") -- vs-code like icons
-	-- use("onsails/lspkind.nvim") -- icons for autocompletion
+	use("onsails/lspkind.nvim") -- icons for autocompletion
 
 	-- autocompletion
-	use("hrsh7th/nvim-cmp") -- completion plugin
+	use("hrsh7th/nvim-cmp") -- completion framework
 	use("hrsh7th/cmp-buffer") -- source for text in buffer
 	use("hrsh7th/cmp-path") -- source for file system paths
 
 	-- snippets
-	-- use("L3MON4D3/LuaSnip") -- snippet engine
-	-- use("saadparwaiz1/cmp_luasnip") -- for autocompletion
-	-- use("rafamadriz/friendly-snippets") -- useful snippets
+	use("L3MON4D3/LuaSnip") -- snippet engine
+	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
 
 	-- managing & installing lsp servers, linters & formatters
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
@@ -60,7 +59,8 @@ return packer.startup(function(use)
 
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
-	use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
+	use("simrat39/rust-tools.nvim") -- tools to automatically setup lspconfig for rust-analyzer
+	use("hrsh7th/cmp-nvim-lsp") -- LSP completion source
 	use({
 		"nvimdev/lspsaga.nvim",
 		branch = "main",
@@ -83,9 +83,17 @@ return packer.startup(function(use)
 		end,
 	})
 
-	-- auto closing
-	-- use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc.
+	-- autopair plugin
+	use({
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
 
+	-- floating terminal
+	use("voldikss/vim-floaterm")
 	if packer_bootstrap then
 		require("packer").sync()
 	end

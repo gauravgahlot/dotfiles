@@ -32,6 +32,19 @@ local on_attach = function(client, bufnr)
 	keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<CR>", opts) -- see outline on right hand side
 end
 
+-- setup rust-tools
+local rt = require("rust-tools")
+rt.setup({
+	server = {
+		on_attach = function(_, bufnr)
+			-- Hover actions
+			keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+			-- Code action groups
+			keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+		end,
+	},
+})
+
 -- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
@@ -49,15 +62,15 @@ lspconfig["rust_analyzer"].setup({
 			},
 			completion = {
 				postfix = {
-					enable = false,
+					enable = true,
 				},
 			},
 		},
 	},
 })
 
-local lspconfig = require("lspconfig")
-lspconfig.gopls.setup({
+local lspconf = require("lspconfig")
+lspconf.gopls.setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 	settings = {
@@ -84,7 +97,7 @@ lspconfig.gopls.setup({
 })
 
 -- configure lua server (with special settings)
-lspconfig["lua_ls"].setup({
+lspconf["lua_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 	settings = { -- custom settings for lua
@@ -104,6 +117,39 @@ lspconfig["lua_ls"].setup({
 	},
 })
 
-vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
+--[[ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
+	virtual_text = true,
+}) ]]
+
+-- LSP Diagnostics Options Setup
+local sign = function(opts)
+	vim.fn.sign_define(opts.name, {
+		texthl = opts.name,
+		text = opts.text,
+		numhl = "",
+	})
+end
+
+sign({ name = "DiagnosticSignError", text = "" })
+sign({ name = "DiagnosticSignWarn", text = "" })
+sign({ name = "DiagnosticSignHint", text = "" })
+sign({ name = "DiagnosticSignInfo", text = "" })
+
+vim.diagnostic.config({
 	virtual_text = false,
+	signs = true,
+	update_in_insert = true,
+	underline = true,
+	severity_sort = false,
+	float = {
+		border = "rounded",
+		source = "always",
+		header = "",
+		prefix = "",
+	},
 })
+
+vim.cmd([[
+set signcolumn=yes
+autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
+]])

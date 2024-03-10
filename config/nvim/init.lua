@@ -16,3 +16,4 @@ require("gauravgahlot.plugins.lsp.null-ls")
 
 -- set the colorscheme (must be set at last)
 require("gauravgahlot.core.colorscheme")
+

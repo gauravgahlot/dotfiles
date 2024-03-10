@@ -23,8 +23,8 @@ opt.incsearch = true
 opt.cursorline = true
 
 -- appearance
-opt.termguicolors = true 
-opt.background = "dark"  -- dark | light
+opt.termguicolors = true
+opt.background = "dark" -- dark | light
 opt.signcolumn = "no"
 
 -- backspace
@@ -37,7 +37,11 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
+-- Treesitter folding (collapse code blocks)
+vim.wo.foldmethod = "indent" -- "syntax" | "indent" | "expr"
+vim.wo.foldexpr = "nvim_treesitter#foldindent()"
+vim.wo.foldenable = false
+
 -- others
 opt.iskeyword:append("-")
-opt.scrolloff = 8 -- not working 
-
+opt.scrolloff = 8 -- not working
