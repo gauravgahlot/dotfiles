@@ -18,34 +18,35 @@ local on_attach = function(client, bufnr)
 	local opts = { noremap = true, silent = true, buffer = bufnr }
 
 	-- set keybinds
-	keymap.set("n", "gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references
-	keymap.set("n", "gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>", opts) -- got to declaration
-	keymap.set("n", "gd", "<cmd>Lspsaga peek_definition<CR>", opts) -- see definition and make edits in window
-	keymap.set("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts) -- go to implementation
-	keymap.set("n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", opts) -- see available code actions
-	keymap.set("n", "<leader>rn", "<cmd>Lspsaga rename<CR>", opts) -- smart rename
-	keymap.set("n", "<leader>D", "<cmd>Lspsaga show_line_diagnostics<CR>", opts) -- show  diagnostics for line
-	keymap.set("n", "<leader>d", "<cmd>Lspsaga show_cursor_diagnostics<CR>", opts) -- show diagnostics for cursor
-	keymap.set("n", "[d", "<cmd>Lspsaga diagnostic_jump_prev<CR>", opts) -- jump to previous diagnostic in buffer
-	keymap.set("n", "]d", "<cmd>Lspsaga diagnostic_jump_next<CR>", opts) -- jump to next diagnostic in buffer
-	keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts) -- show documentation for what is under cursor
-	keymap.set("n", "<leader>o", "<cmd>LSoutlineToggle<CR>", opts) -- see outline on right hand side
+	vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float)
+	vim.keymap.set("n", "[d", vim.diagnostic.goto_prev)
+	vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
+	vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist)
+
+	vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
+	vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts) -- go to definition
+	vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts) -- go to implementation
+	vim.keymap.set("n", "gr", vim.lsp.buf.references, opts) -- show references
+
+	vim.keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under the cursor
+	vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts) -- signature help
+	vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, opts) -- rename what is under cursor
+	vim.keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, opts) -- show code actions
 end
 
 -- setup rust-tools
-local rt = require("rust-tools")
-rt.setup({
-	server = {
-		on_attach = function(_, bufnr)
-			-- Hover actions
-			keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
-			-- Code action groups
-			keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
-		end,
-	},
-})
+-- local rt = require("rust-tools")
+-- rt.setup({
+-- 	server = {
+-- 		on_attach = function(_, bufnr)
+-- 			-- Hover actions
+-- 			keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+-- 			-- Code action groups
+-- 			keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+-- 		end,
+-- 	},
+-- })
 
--- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
 -- configure emmet language server
@@ -73,25 +74,43 @@ local lspconf = require("lspconfig")
 lspconf.gopls.setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	cmd = { "gopls" },
+	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+	-- root_dir = util.root_pattern("go.work", "go.mod", ".git"),
 	settings = {
 		gopls = {
-			analyses = {
-				assign = true,
-				atomic = true,
-				bools = true,
-				composites = true,
-				copylocks = true,
-				deepequalerrors = true,
-				embed = true,
-				errorsas = true,
-				fieldalignment = true,
-				loopclosure = true,
-				nilfunc = true,
-				lostcancel = true,
-				unusedparams = true,
-			},
-			staticcheck = true,
 			gofumpt = true,
+			codelenses = {
+				gc_details = false,
+				generate = true,
+				regenerate_cgo = true,
+				run_govulncheck = true,
+				test = true,
+				tidy = true,
+				upgrade_dependency = true,
+				vendor = true,
+			},
+			hints = {
+				assignVariableTypes = true,
+				compositeLiteralFields = true,
+				compositeLiteralTypes = true,
+				constantValues = true,
+				functionTypeParameters = true,
+				parameterNames = true,
+				rangeVariableTypes = true,
+			},
+			analyses = {
+				fieldalignment = true,
+				nilness = true,
+				unusedparams = true,
+				unusedwrite = true,
+				useany = true,
+			},
+			usePlaceholders = true,
+			completeUnimported = true,
+			staticcheck = true,
+			directoryFilters = { "-.git", "-.vscode", "-.idea", "-.vscode-test", "-node_modules", "-.nvim" },
+			semanticTokens = true,
 		},
 	},
 })
@@ -116,10 +135,6 @@ lspconf["lua_ls"].setup({
 		},
 	},
 })
-
---[[ vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
-	virtual_text = true,
-}) ]]
 
 -- LSP Diagnostics Options Setup
 local sign = function(opts)

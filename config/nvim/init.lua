@@ -10,10 +10,8 @@ require("gauravgahlot.plugins.lualine")
 require("gauravgahlot.plugins.telescope")
 require("gauravgahlot.plugins.nvim-cmp")
 require("gauravgahlot.plugins.lsp.mason")
-require("gauravgahlot.plugins.lsp.lspsaga")
 require("gauravgahlot.plugins.lsp.lspconfig")
 require("gauravgahlot.plugins.lsp.null-ls")
 
 -- set the colorscheme (must be set at last)
 require("gauravgahlot.core.colorscheme")
-

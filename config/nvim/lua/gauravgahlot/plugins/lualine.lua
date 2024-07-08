@@ -1,14 +1,13 @@
 local status, lualine = pcall(require, "lualine")
 if not status then
-  return
+	return
 end
 
 lualine.setup({
-  options = {
-    theme = "tokyonight",
-    color = {
-      gui = "bold",
-    }
-  }
+	options = {
+		theme = "gruvbox",
+		color = {
+			gui = "bold",
+		},
+	},
 })
-

@@ -29,8 +29,12 @@ return packer.startup(function(use)
 	-- packer can manage itself
 	use("wbthomason/packer.nvim")
 
+	-- color schemes
+	use("folke/tokyonight.nvim")
+	use("patstockwell/vim-monokai-tasty")
+	use("ellisonleao/gruvbox.nvim")
+
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
-	use("folke/tokyonight.nvim") -- color scheme
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigaton
 	use("szw/vim-maximizer") -- maximizes and restores current window
 	use("numToStr/Comment.nvim") -- commenting with gc
@@ -50,8 +54,8 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-path") -- source for file system paths
 
 	-- snippets
-	use("L3MON4D3/LuaSnip") -- snippet engine
-	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
+	-- use("L3MON4D3/LuaSnip") -- snippet engine
+	-- use("saadparwaiz1/cmp_luasnip") -- for autocompletion
 
 	-- managing & installing lsp servers, linters & formatters
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
@@ -59,16 +63,8 @@ return packer.startup(function(use)
 
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig") -- easily configure language servers
-	use("simrat39/rust-tools.nvim") -- tools to automatically setup lspconfig for rust-analyzer
+	-- use("simrat39/rust-tools.nvim") -- tools to automatically setup lspconfig for rust-analyzer
 	use("hrsh7th/cmp-nvim-lsp") -- LSP completion source
-	use({
-		"nvimdev/lspsaga.nvim",
-		branch = "main",
-		requires = {
-			{ "nvim-tree/nvim-web-devicons" },
-			{ "nvim-treesitter/nvim-treesitter" },
-		},
-	}) -- enhanced lsp uis
 
 	-- formatting & linting
 	use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
@@ -80,6 +76,38 @@ return packer.startup(function(use)
 		run = function()
 			local ts_update = require("nvim-treesitter.install").update({ with_sync = true })
 			ts_update()
+		end,
+	})
+
+	-- rust language
+	use({
+		"rust-lang/rust.vim",
+		ft = { "rust" },
+		config = function()
+			vim.g.rustfmt_autosave = 1
+			vim.g.rustfmt_emit_files = 1
+			vim.g.rustfmt_fail_silently = 0
+			-- vim.g.rust_clip_command = "wl-copy"
+		end,
+	})
+
+	-- markdown
+	use({
+		"plasticboy/vim-markdown",
+		ft = { "markdown" },
+		dependencies = {
+			"godlygeek/tabular",
+		},
+		config = function()
+			-- never ever fold!
+			vim.g.vim_markdown_folding_disabled = 1
+			-- support front-matter in .md files
+			vim.g.vim_markdown_frontmatter = 1
+			-- 'o' on a list item should insert at same level
+			vim.g.vim_markdown_new_list_item_indent = 0
+			-- don't add bullets when wrapping:
+			-- https://github.com/preservim/vim-markdown/issues/232
+			vim.g.vim_markdown_auto_insert_bullets = 0
 		end,
 	})
 
