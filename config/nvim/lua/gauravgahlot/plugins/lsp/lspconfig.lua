@@ -18,20 +18,20 @@ local on_attach = function(client, bufnr)
 	local opts = { noremap = true, silent = true, buffer = bufnr }
 
 	-- set keybinds
-	vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float)
-	vim.keymap.set("n", "[d", vim.diagnostic.goto_prev)
-	vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
-	vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist)
+	keymap.set("n", "<leader>d", vim.diagnostic.open_float)
+	keymap.set("n", "[d", vim.diagnostic.goto_prev)
+	keymap.set("n", "]d", vim.diagnostic.goto_next)
+	keymap.set("n", "<leader>q", vim.diagnostic.setloclist)
 
-	vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
-	vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts) -- go to definition
-	vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts) -- go to implementation
-	vim.keymap.set("n", "gr", vim.lsp.buf.references, opts) -- show references
+	keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
+	keymap.set("n", "gd", vim.lsp.buf.definition, opts) -- go to definition
+	keymap.set("n", "gi", vim.lsp.buf.implementation, opts) -- go to implementation
+	keymap.set("n", "gr", vim.lsp.buf.references, opts) -- show references
 
-	vim.keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under the cursor
-	vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts) -- signature help
-	vim.keymap.set("n", "<leader>r", vim.lsp.buf.rename, opts) -- rename what is under cursor
-	vim.keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, opts) -- show code actions
+	keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under the cursor
+	keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts) -- signature help
+	keymap.set("n", "<leader>r", vim.lsp.buf.rename, opts) -- rename what is under cursor
+	keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, opts) -- show code actions
 end
 
 -- setup rust-tools

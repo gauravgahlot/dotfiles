@@ -69,12 +69,7 @@ return packer.startup(function(use)
 	-- formatting & linting
 	use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
 	use("nvimtools/none-ls.nvim")
-	-- use({
-	-- 	"nvimtools/none-ls.nvim",
-	-- 	run = function()
-	-- 		return require("custom.configs.null-ls")
-	-- 	end,
-	-- })
+	-- use("jose-elias-alvarez/null-ls.nvim")
 
 	-- treesitter configuration
 	use({
