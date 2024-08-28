@@ -20,7 +20,7 @@ alias kgno="kubectl get nodes"
 alias kgpoa="kubectl get pods --all-namespaces"
 alias kd="kubectl describe"
 alias kaf="kubectl apply -f"
-alias kprom='kubectl port-forward svc/prometheus-operated -n kaas-metrics 9090:9090 &'
+alias kgy="kubectl get -o yaml"
 alias kx='kubectx'
 alias kns='kubens'
 
@@ -50,4 +50,8 @@ alias tns="tmux new -s $1"
 alias td='tmux detach'
 alias ta="tmux attach -t $1"
 alias tks='tmux kill-session'
+
+alias pip=pip3
+
+alias cat='bat --theme gruvbox-dark'
 
