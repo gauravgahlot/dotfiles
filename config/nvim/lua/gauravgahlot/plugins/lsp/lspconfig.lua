@@ -29,7 +29,7 @@ local on_attach = function(client, bufnr)
 	keymap.set("n", "gr", vim.lsp.buf.references, opts) -- show references
 
 	keymap.set("n", "K", vim.lsp.buf.hover, opts) -- show documentation for what is under the cursor
-	keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts) -- signature help
+	-- keymap.set("n", "<C-s>", vim.lsp.buf.signature_help, opts) -- signature help
 	keymap.set("n", "<leader>r", vim.lsp.buf.rename, opts) -- rename what is under cursor
 	keymap.set({ "n", "v" }, "<leader>a", vim.lsp.buf.code_action, opts) -- show code actions
 end
