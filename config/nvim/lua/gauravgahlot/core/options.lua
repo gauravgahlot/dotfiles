@@ -45,3 +45,4 @@ vim.wo.foldenable = false
 -- others
 opt.iskeyword:append("-")
 opt.scrolloff = 8 -- not working
+opt.colorcolumn = "110"
