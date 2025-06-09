@@ -16,7 +16,7 @@ keymap.set("n", "x", '"_x')
 -- keymap.set("n", "<leader>sv", "<C-w>v")     -- split vertically with current buffer
 -- keymap.set("n", "<leader>sh", "<C-w>s")     -- split horizontally with current buffer
 keymap.set("n", "<leader>sv", ":vnew<CR>")  -- split vertically with empty buffer
-keymap.set("n", "<leader>sh", ":vnew<CR>")  -- split horizontally with empty buffer
+keymap.set("n", "<leader>sh", ":new<CR>")   -- split horizontally with empty buffer
 keymap.set("n", "<leader>se", "<C-w>=")     -- make splits equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close split
 
