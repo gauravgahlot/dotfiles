@@ -43,6 +43,6 @@ keymap.set("n", "<leader>fb", builtin.buffers, {})     -- list open buffers in c
 keymap.set("n", "<leader>fh", builtin.help_tags, {})   -- list available help tags
 
 -- FloaTerm configuration
-keymap.set("n", "<leader>t", ":FloatermNew --name=myfloat --height=0.9 --width=0.7 --autoclose=2 zsh<CR>")
+keymap.set("n", "<leader>t", ":FloatermNew --name=myfloat --height=0.95 --width=0.90 --autoclose=2 zsh<CR>")
 keymap.set("n", "t", ":FloatermToggle myfloat<CR>")
 keymap.set("t", "<Esc>", "<C-\\><C-n>:q<CR>")
