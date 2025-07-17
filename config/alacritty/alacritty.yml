@@ -1,9 +1,9 @@
 live_config_reload: true
 
 font:
-  size: 21
+  size: 18
   offset:
-    y: 11
+    y: 8
   glyph_offset:
     y: 9
   normal:
