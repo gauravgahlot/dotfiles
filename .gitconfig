@@ -1,7 +1,7 @@
 [user]
-	name = Gaurav Gahlot
-	email = email-here 
-	signingkey = gpg-key 
+	name = Gaurav Gahlot 
+	email = <email-id> 
+	signingkey = <gpg-key-id> 
 [core]
 	editor = vim
 [commit]
@@ -16,6 +16,8 @@
 	insteadOf = https://github.com/
 [url "git@github.com:gauravgahlot"]
 	insteadOf = https://github.com/gauravgahlot
+[url "git@github.com:<org>"]
+	insteadOf = https://github.com/<org>
 [credential]
 helper = osxkeychain # credential helper to be updated based on OS
 
