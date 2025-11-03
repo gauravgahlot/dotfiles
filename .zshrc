@@ -22,7 +22,6 @@ export PAGER=""
 export GPG_TTY=$(tty)
 
 # Set GOPRIVATE
-go env -w GOPRIVATE=github.com/acquia
 # go env -w GOPRIVATE=github.com/gauravgahlot
 
 
@@ -36,6 +35,7 @@ ZSH_THEME="spaceship"
 SPACESHIP_KUBECTL_CONTEXT_SHOW=true
 SPACESHIP_KUBECTL_SHOW=true
 SPACESHIP_KUBECTL_VERSION_SHOW=false
+SPACESHIP_BATTERY_SHOW=false
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
