@@ -19,8 +19,12 @@ local on_attach = function(client, bufnr)
 
   -- set keybinds
   keymap.set("n", "<leader>d", vim.diagnostic.open_float)
-  keymap.set("n", "[d", vim.diagnostic.goto_prev)
-  keymap.set("n", "]d", vim.diagnostic.goto_next)
+  keymap.set("n", "[d", function()
+    vim.diagnostic.jump({ count = -1, float = true })
+  end, { desc = "Go to previous diagnostic" })
+  keymap.set("n", "]d", function()
+    vim.diagnostic.jump({ count = 1, float = true })
+  end, { desc = "Go to next diagnostic" })
   keymap.set("n", "<leader>q", vim.diagnostic.setloclist)
 
   keymap.set("n", "gD", vim.lsp.buf.declaration, opts)                -- go to declaration
@@ -100,7 +104,6 @@ lspconf.gopls.setup({
         rangeVariableTypes = true,
       },
       analyses = {
-        fieldalignment = true,
         nilness = true,
         unusedparams = true,
         unusedwrite = true,
@@ -158,7 +161,7 @@ vim.diagnostic.config({
   severity_sort = false,
   float = {
     border = "rounded",
-    source = "always",
+    source = true,
     header = "",
     prefix = "",
   },
