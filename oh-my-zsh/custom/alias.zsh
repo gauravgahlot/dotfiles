@@ -52,3 +52,7 @@ alias cat='bat --theme gruvbox-dark'
 # wasm
 alias hx='xxd -c4 -R always $1'
 
+# monitors
+alias xa='/home/gaurav/.config/hypr/scripts/all-monitors.sh > /dev/null'
+alias xi='/home/gaurav/.config/hypr/scripts/internal-only.sh > /dev/null'
+alias xe='/home/gaurav/.config/hypr/scripts/external-only.sh > /dev/null'
