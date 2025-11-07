@@ -1,16 +1,31 @@
-
-[[keyboard.bindings]]
-chars = "\u001BF"
-key = "Right"
-mods = "Alt"
-
-[[keyboard.bindings]]
-chars = "\u001BB"
-key = "Left"
-mods = "Alt"
-
 [general]
 live_config_reload = true
+import = ["~/.config/alacritty/themes/dayfox.toml"]
+# import = ["~/.config/alacritty/themes/default.toml"]
+
+[font]
+size = 15
+
+[font.offset]
+y = 8
+
+[font.glyph_offset]
+y = 9
+
+[font.normal]
+family = "Hack Nerd Font"
+
+[window]
+opacity = 0.98
+decorations = "buttonless"
+
+[window.padding]
+x = 5
+y = 5
+
+[window.dimensions]
+columns = 120
+lines = 40
 
 [cursor]
 unfocused_hollow = true
@@ -21,15 +36,21 @@ blinking = "Never"
 [env]
 TERM = "xterm-256color"
 
-[font]
-size = 13
+[scrolling]
+history = 2000
+# auto_scroll = true
 
-[font.glyph_offset]
-y = 9
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001BF"
 
-[font.normal]
-family = "Hack Nerd Font"
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001BB"
 
-[font.offset]
-y = 8
+[terminal.shell]
+program = "/usr/bin/tmux"
+args = ["new-session", "-A", "-D", "-s", "main"]
 
