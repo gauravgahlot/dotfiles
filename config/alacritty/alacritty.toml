@@ -1,10 +1,10 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/themes/dayfox.toml"]
-# import = ["~/.config/alacritty/themes/default.toml"]
+# import = ["~/.config/alacritty/themes/dayfox.toml"]
+import = ["~/.config/alacritty/themes/default.toml"]
 
 [font]
-size = 15
+size = 13
 
 [font.offset]
 y = 8
