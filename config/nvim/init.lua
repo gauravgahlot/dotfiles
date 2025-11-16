@@ -16,6 +16,7 @@ require("gauravgahlot.plugins.lsp.lspconfig")
 -- set the colorscheme (must be set at last)
 require("gauravgahlot.core.colorscheme")
 
+-- auto initialize the floating terminal
 vim.api.nvim_create_autocmd("VimEnter", {
   callback = function()
     vim.cmd("FloatermNew --name=myfloat --height=0.95 --width=0.90 --autoclose=2 zsh")
