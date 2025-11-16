@@ -19,5 +19,5 @@
 [url "git@github.com:<org>"]
 	insteadOf = https://github.com/<org>
 [credential]
-helper = osxkeychain # credential helper to be updated based on OS
+helper = store # credential helper to be updated based on OS
 
