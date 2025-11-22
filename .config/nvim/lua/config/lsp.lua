@@ -1,4 +1,5 @@
 local keymap = vim.keymap -- for conciseness
+
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("UserLspConfig", {}),
   callback = function(ev)
@@ -8,7 +9,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
     -- set keybinds
     opts.desc = "Show LSP references"
-    keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
+    keymap.set("n", "gr", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
 
     opts.desc = "Go to declaration"
     keymap.set("n", "gD", vim.lsp.buf.declaration, opts) -- go to declaration
