@@ -7,11 +7,12 @@ return {
     conform.setup({
       formatters_by_ft = {
         json = { "prettier" },
-        yaml = { "prettier" },
+        -- Disable formatter while working with Helm templates
+        -- yaml = { "prettier" },
         markdown = { "prettier" },
         lua = { "stylua" },
         go = { "golangci-lint", "gci" },
-        rust = { "rustfmt" }
+        rust = { "rustfmt" },
       },
       format_on_save = {
         lsp_fallback = true,
