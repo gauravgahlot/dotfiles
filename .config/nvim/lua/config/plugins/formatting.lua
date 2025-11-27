@@ -7,7 +7,6 @@ return {
     conform.setup({
       formatters_by_ft = {
         json = { "prettier" },
-        -- Disable formatter while working with Helm templates
         -- yaml = { "prettier" },
         markdown = { "prettier" },
         lua = { "stylua" },
