@@ -1,0 +1,7 @@
+# Completely disable the package module
+[package]
+disabled = true 
+
+# Enable kubernetes module
+[kubernetes]
+disabled = false
