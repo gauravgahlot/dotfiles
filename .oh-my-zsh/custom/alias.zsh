@@ -1,28 +1,23 @@
 # Docker
 alias d='docker'
-alias dps="docker ps --format 'table {{.ID}} \t {{.Image}} \t {{.Names}} \t {{.Command}} \t {{.Status}}'"
-alias dc='docker-compose'
-alias drm='docker rm $(docker ps -a -q)'
-alias dkill='docker kill $(docker ps -a -q)'
-alias dprune='docker system prune -af && docker volume prune -af && docker buildx prune -af'
-alias tspull='docker pull quay.io/argoproj/argocli:v3.3.8 && \ 
-docker pull quay.io/argoproj/workflow-controller:v3.3.8 && \
-docker pull quay.io/jetstack/cert-manager-controller:v1.10.2 && \
-docker pull quay.io/jetstack/cert-manager-webhook:v1.10.2 && \
-docker pull quay.io/jetstack/cert-manager-cainjector:v1.10.2 && \
-docker pull jfrog.ais.acquia.io/devops-pipeline/localstack/localstack:3.0.0'
+# alias dps="docker ps --format 'table {{.ID}} \t {{.Image}} \t {{.Names}} \t {{.Command}} \t {{.Status}}'"
+# alias dc='docker compose'
+# alias drm='docker rm $(docker ps -a -q)'
+# alias dkill='docker kill $(docker ps -a -q)'
+# alias dprune='docker system prune -af && docker volume prune -af && docker buildx prune -af'
 
 # K8s
 alias k="kubectl"
 alias kg="kubectl get"
-alias kgpo="kubectl get pods"
-alias kgno="kubectl get nodes"
-alias kgpoa="kubectl get pods --all-namespaces"
+# alias kgpo="kubectl get pods"
+# alias kgno="kubectl get nodes"
+# alias kgpoa="kubectl get pods --all-namespaces"
 alias kd="kubectl describe"
-alias kaf="kubectl apply -f"
-alias kgy="kubectl get -o yaml"
-alias kx='kubectx'
-alias kns='kubens'
+# alias kaf="kubectl apply -f"
+# alias kgy="kubectl get -o yaml"
+# alias kprom='kubectl port-forward svc/prometheus-operated -n kaas-metrics 9090:9090 &'
+# alias kx='kubectx'
+# alias kns='kubens'
 
 # hack for using whatthecommit
 gcm() {
@@ -45,13 +40,19 @@ alias gra='git remote add'
 alias gd="git branch -D $1"
 
 # tmux
-alias t=tmux
-alias tns="tmux new -s $1"
-alias td='tmux detach'
-alias ta="tmux attach -t $1"
-alias tks='tmux kill-session'
+# alias t=tmux
+# alias tns="tmux new -s $1"
+# alias td='tmux detach'
+# alias ta="tmux attach -t $1"
+# alias tks='tmux kill-session'
 
-alias pip=pip3
-
+# requires 'bat' to be installed
 alias cat='bat --theme gruvbox-dark'
 
+# requires 'xxd' to be installed (wasm)
+alias hx='xxd -c4 -R always $1'
+
+# monitors
+alias xa='/home/gaurav/.config/hypr/scripts/all-monitors.sh > /dev/null'
+alias xi='/home/gaurav/.config/hypr/scripts/internal-only.sh > /dev/null'
+alias xe='/home/gaurav/.config/hypr/scripts/external-only.sh > /dev/null'
