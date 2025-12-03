@@ -8,11 +8,11 @@
   // Choose the order of the modules
   "modules-left": [
     "hyprland/workspaces",
-    "sway/mode",
-    "sway/scratchpad",
-    "custom/media",
+    // "sway/mode",
+    // "sway/scratchpad",
+    "custom/media"
   ],
-  "modules-center": ["sway/window"],
+  "modules-center": [], // "sway/window"
   "modules-right": [
     "mpd",
     "pulseaudio",
@@ -21,8 +21,8 @@
     "battery",
     "battery#bat2",
     "clock",
-    "tray",
-    "custom/power",
+    "tray"
+    // "custom/power",
   ],
   // Modules configuration
   "hyprland/workspaces": {
@@ -36,8 +36,8 @@
       "5": "",
       "urgent": "",
       "focused": "",
-      "default": "",
-    },
+      "default": ""
+    }
   },
   "keyboard-state": {
     "numlock": true,
@@ -45,18 +45,18 @@
     "format": "{name} {icon}",
     "format-icons": {
       "locked": "",
-      "unlocked": "",
-    },
+      "unlocked": ""
+    }
   },
   "sway/mode": {
-    "format": "<span style=\"italic\">{}</span>",
+    "format": "<span style=\"italic\">{}</span>"
   },
   "sway/scratchpad": {
     "format": "{icon} {count}",
     "show-empty": false,
     "format-icons": ["", ""],
     "tooltip": true,
-    "tooltip-format": "{app}: {title}",
+    "tooltip-format": "{app}: {title}"
   },
   "mpd": {
     "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -65,28 +65,28 @@
     "unknown-tag": "N/A",
     "interval": 5,
     "consume-icons": {
-      "on": " ",
+      "on": " "
     },
     "random-icons": {
       "off": "<span color=\"#f53c3c\"></span> ",
-      "on": " ",
+      "on": " "
     },
     "repeat-icons": {
-      "on": " ",
+      "on": " "
     },
     "single-icons": {
-      "on": "1 ",
+      "on": "1 "
     },
     "state-icons": {
       "paused": "",
-      "playing": "",
+      "playing": ""
     },
     "tooltip-format": "MPD (connected)",
-    "tooltip-format-disconnected": "MPD (disconnected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
   },
   "tray": {
     // "icon-size": 21,
-    "spacing": 5,
+    "spacing": 5
     // "icons": {
     //   "blueman": "bluetooth",
     //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
@@ -94,23 +94,23 @@
   },
   "clock": {
     "tooltip": false,
-    "format": "{:%a %d %b %I:%M %p}",
+    "format": "{:%a %d %b %I:%M %p}"
   },
   "battery": {
     "states": {
       // "good": 95,
       "warning": 30,
-      "critical": 15,
+      "critical": 15
     },
     "format": "{capacity}% {icon}",
     "format-full": "{capacity}% {icon}",
     "format-charging": "{capacity}% ",
     "format-plugged": "{capacity}% ",
     "format-alt": "{time} {icon}",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": ["", "", "", "", ""]
   },
   "battery#bat2": {
-    "bat": "BAT2",
+    "bat": "BAT2"
   },
   "network": {
     // "interface": "wlp2*", // (Optional) To force the use of this interface
@@ -119,7 +119,7 @@
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}"
   },
   "pulseaudio": {
     "tooltip": false,
@@ -135,9 +135,9 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": ["", "", ""],
+      "default": ["", "", ""]
     },
-    "on-click": "pwvucontrol",
+    "on-click": "pwvucontrol"
   },
   "custom/media": {
     "format": "{icon} {text}",
@@ -145,22 +145,22 @@
     "max-length": 40,
     "format-icons": {
       "spotify": "",
-      "default": "🎜",
+      "default": "🎜"
     },
     "escape": true,
-    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null", // Script in resources folder
+    "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
     // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-  },
-  "custom/power": {
-    "format": "⏻ ",
-    "tooltip": false,
-    "menu": "on-click",
-    "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
-    "menu-actions": {
-      "shutdown": "shutdown",
-      "reboot": "reboot",
-      "suspend": "systemctl suspend",
-      "hibernate": "systemctl hibernate",
-    },
-  },
+  }
+  // "custom/power": {
+  //   "format": "⏻ ",
+  //   "tooltip": false,
+  //   "menu": "on-click",
+  //   "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+  //   "menu-actions": {
+  //     "shutdown": "shutdown",
+  //     "reboot": "reboot",
+  //     "suspend": "systemctl suspend",
+  //     "hibernate": "systemctl hibernate",
+  //   },
+  // },
 }
