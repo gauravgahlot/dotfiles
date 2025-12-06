@@ -46,7 +46,7 @@ return {
       },
       update_focused_file = {
         enable = true, -- highlight the current file
-        update_cwd = true, -- change tree root to match current file's directory
+        -- update_cwd = true, -- change tree root to match current file's directory
         ignore_list = {}, -- files to ignore
       },
     })
