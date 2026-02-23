@@ -1,14 +1,14 @@
 return {
   { "folke/tokyonight.nvim" },
-  { "Shatur/neovim-ayu" },
+  { "ellisonleao/gruvbox.nvim" },
   { "catppuccin/nvim" },
 
   {
-    "ellisonleao/gruvbox.nvim",
+    "Shatur/neovim-ayu",
     priority = 1000, -- load early
     lazy = false, -- ensures it loads on startup
     config = function()
-      vim.cmd.colorscheme("gruvbox")
+      vim.cmd.colorscheme("ayu-mirage")
     end,
   },
 }
