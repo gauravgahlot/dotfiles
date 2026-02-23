@@ -20,6 +20,7 @@ return {
         "toml",
         "yaml",
         "markdown",
+        "markdown_inline",
         "lua",
         "dockerfile",
         "go",
