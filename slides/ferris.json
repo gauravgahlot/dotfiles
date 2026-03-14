@@ -5,46 +5,73 @@
     "color": "252",
     "margin": 2
   },
+  "block_quote": {
+    "indent": 1,
+    "indent_token": "│ "
+  },
+  "paragraph": {},
+  "list": {
+    "level_indent": 2
+  },
   "heading": {
     "block_suffix": "\n",
+    "color": "208",
     "bold": true
   },
   "h1": {
     "prefix": "██ ",
     "suffix": " ",
-    "color": "#dea584",
+    "color": "#E76F51",
     "bold": true
   },
   "h2": {
     "prefix": "▓▓▓ ",
-    "suffix": " ",
-    "color": "#e6b77b",
-    "bold": true
+    "color": "#E76F51"
   },
   "h3": {
-    "prefix": "▒▒▒▒",
-    "suffix": " ",
-    "color": "#f0c68f"
+    "prefix": "▒▒▒▒ ",
+    "color": "#CE422B"
   },
   "h4": {
-    "prefix": "░░░░░ ",
-    "suffix": " ",
-    "color": "#f7d3a0"
+    "color": "#9B2335",
+    "prefix": "░░░░░ "
   },
   "h5": {},
   "h6": {},
   "text": {},
-  "strikethrough": { "crossed_out": true },
-  "emph": { "italic": true },
-  "strong": { "bold": true },
-  "hr": { "color": "240", "format": "\n--------\n" },
-  "item": { "block_prefix": "• " },
-  "enumeration": { "block_prefix": ". " },
-  "task": { "ticked": "[✓] ", "unticked": "[ ] " },
-  "link": { "color": "30", "underline": true },
-  "link_text": { "color": "35", "bold": true },
+  "strikethrough": {
+    "crossed_out": true
+  },
+  "emph": {
+    "italic": true
+  },
+  "strong": {
+    "bold": true
+  },
+  "hr": {
+    "color": "240",
+    "format": "\n--------\n"
+  },
+  "item": {
+    "block_prefix": "• "
+  },
+  "enumeration": {
+    "block_prefix": ". "
+  },
+  "task": {
+    "ticked": "[✓] ",
+    "unticked": "[ ] "
+  },
+  "link": {
+    "color": "30",
+    "underline": true
+  },
+  "link_text": {
+    "color": "35",
+    "bold": true
+  },
   "image": {
-    "color": "212",
+    "color": "214",
     "underline": true
   },
   "image_text": {
@@ -54,7 +81,7 @@
   "code": {
     "prefix": " ",
     "suffix": " ",
-    "color": "203",
+    "color": "209",
     "background_color": "236"
   },
   "code_block": {
@@ -68,7 +95,9 @@
   },
   "definition_list": {},
   "definition_term": {},
-  "definition_description": { "block_prefix": "\n🠶 " },
+  "definition_description": {
+    "block_prefix": "\n🠶 "
+  },
   "html_block": {},
   "html_span": {}
 }
