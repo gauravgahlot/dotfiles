@@ -2,11 +2,14 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
-      -- list of servers for mason to install
       ensure_installed = {
         "gopls",
         "lua_ls",
-        "rust_analyzer",
+      },
+      -- rustaceanvim manages rust-analyzer; exclude it here to avoid
+      -- duplicate LSP clients and duplicate completions.
+      automatic_enable = {
+        exclude = { "rust_analyzer" },
       },
     },
     dependencies = {
@@ -34,9 +37,7 @@ return {
         "stylua", -- lua formatter
         -- formatters for Go
         "golangci-lint",
-        "gci",
-        -- formatters for Rust
-        "rustfmt",
+        -- "gci",
       },
     },
     dependencies = {
