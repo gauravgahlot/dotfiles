@@ -74,8 +74,7 @@ alias vim='nvim'
 
 # kubernetes
 export KUBECONFIG=~/.kube/none.yaml
-export KIND_EXPERIMENTAL_PROVIDER=podman
-export DOCKER_HOST=unix://${XDG_RUNTIME_DIR}/podman/podman.sock
 
 # use the starship prompt - https://starship.rs/
+# curl -sS https://starship.rs/install.sh | sh
 eval "$(starship init zsh)"
