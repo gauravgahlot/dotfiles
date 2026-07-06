@@ -1,0 +1,10 @@
+# Ghostty configuration
+# Docs: run `ghostty +show-config --default --docs` to see all options.
+
+# Auto light/dark theme — follows the macOS system appearance.
+# Themes live in the themes/ subdirectory next to this file.
+# Available: ayu-dark, ayu-light, ayu-mirage, gruvbox-dark
+theme = light:ayu-light,dark:ayu-mirage
+
+# Default font size (points)
+font-size = 14
