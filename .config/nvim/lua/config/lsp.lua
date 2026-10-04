@@ -53,6 +53,24 @@ vim.api.nvim_create_autocmd("LspAttach", {
   end,
 })
 
+-- LSP servers answer nothing until they finish indexing the workspace (~20s on
+-- large Go repos, longer for rust-analyzer). Without this, gd/K/gr just silently
+-- do nothing and it looks like the config is broken.
+vim.api.nvim_create_autocmd("LspProgress", {
+  group = vim.api.nvim_create_augroup("UserLspProgress", {}),
+  callback = function(ev)
+    local v = ev.data.params.value
+    -- only begin/end; the "report" stream is far too chatty to notify on
+    if v.kind ~= "begin" and v.kind ~= "end" then
+      return
+    end
+    local client = vim.lsp.get_client_by_id(ev.data.client_id)
+    vim.notify(
+      ("[%s] %s"):format(client and client.name or "lsp", v.kind == "end" and "ready" or (v.title or "indexing"))
+    )
+  end,
+})
+
 -- vim.lsp.inlay_hint.enable(true)
 
 local severity = vim.diagnostic.severity

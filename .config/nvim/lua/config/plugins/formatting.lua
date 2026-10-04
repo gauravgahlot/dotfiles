@@ -10,7 +10,7 @@ return {
         -- yaml = { "prettier" },
         markdown = { "prettier" },
         lua = { "stylua" },
-        go = { "golangci-lint", "gci" },
+        go = { "golangci-lint" },
         rust = { "rustfmt" },
       },
       format_on_save = {
